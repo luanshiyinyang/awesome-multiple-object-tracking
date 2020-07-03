@@ -19,7 +19,7 @@
 ## Datasets
 ### Surveillance Scenarios
 [PETS2009](http://www.cvg.reading.ac.uk/PETS2009/a.html) : An old dataset.<br>
-[MOT dataset](https://motchallenge.net/) : A dataset for multi-person detection and tracking, mostly used.<br>
+[MOT challenge](https://motchallenge.net/) : A dataset for multi-person detection and tracking, mostly used.<br>
 [UA-DETRAC](http://detrac-db.rit.albany.edu/) : A dataset for multi-car detection and tracking. <br>
 [AVSS2018 Challenge](https://iwt4s2018.wordpress.com/challenge/) : AVSS2018 Challenge based on UA-DETRAC is opened!<br>
 [DukeMTMC](http://vision.cs.duke.edu/DukeMTMC/) : A dataset for multi-camera multi-person tracking. <br>
