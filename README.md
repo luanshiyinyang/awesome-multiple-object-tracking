@@ -4,7 +4,6 @@
 
 ## Contents
 <!-- TOC -->
-- [Awesome n: ![Awesome](https://github.com/sindresorhus/awesome)](#awesome-n-img-srchttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvg-altawesome)
   - [Contents](#contents)
   - [Papers](#papers)
   - [Dataset](#dataset)
@@ -37,5 +36,6 @@
 [Baidu Trajectory](http://apolloscape.auto/trajectory.html) Interesting dataset for trajectory prediction for Autonomous drive, wait to be opened.<br>
 
 ## Metrics
+refer to paper 《Multiple Object Tracking: A Literature Review》
 
 ## Benchmark Results
