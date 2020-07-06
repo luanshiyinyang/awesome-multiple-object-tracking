@@ -78,7 +78,43 @@ txt文件中的格式为time_frame，id，class_id，img_height，img_width，rl
 <br>这代表着第1帧，目标id为2029（分类id为2，即行人；实例id为29），图片大小为1080*1920。这种格式的文件也可以采用[cocotools](https://github.com/cocodataset/cocoapi)进行解码。
 
 ### UA-DETRAC
+UA-DETRAC是一个车辆多目标检测和跟踪的数据集。数据集包含了在中国北京和天津24个不同地点使用Cannon EOS 550D摄像机拍摄的10个小时的视频。视频以每秒25帧（fps）的速度录制，分辨率为960×540像素。UA-DETRAC数据集中有超过14万个帧，并且有8250辆车进行了手动注释，因此总共有121万个带标签的对象边界框。下载地址为[UA-DETRAC](http://detrac-db.rit.albany.edu/download)。数据集结构如下：
++ 数据集
+  + 训练集图像（5.22GB，60个序列）
+  + 测试集图像（3.94GB，40个序列）
++ 检测
+  + 训练集检测（DPM, ACF, R-CNN, CompACT）
+  + 测试集检测（DPM, ACF, R-CNN, CompACT）
++ 注释
+  + DETRAC-Train-Annotations-XML：包含带有属性信息（例如，车辆类别，天气和比例）的完整注释，该注释用于检测训练。
+  + DETRAC-Train-Annotations-MAT：包含数据集中忽略背景区域之外的目标轨迹的位置信息，用于检测和跟踪评估。
+  + DETRAC-Train-Annotations-XML-v3：包含具有属性信息（例如，车辆类别和颜色，天气和比例）的改进注释，该注释用于检测，跟踪和计数训练。
+  + DETRAC-Sequence-Locations：包含每个序列的特定位置信息（24个不同的位置）。
+  + DETRAC-Test-Annotations-XML：包含具有属性信息（例如，车辆类别，天气和比例）的完整注释，该注释用于检测训练。
+  + DETRAC-Test-Annotations-MAT：包含目标轨迹在数据集中忽略背景区域之外的位置信息，用于检测和跟踪评估。 
 
+其中，DETRAC-Train-Annotations-XML文件如下：
+![DETRAC-Train-Annotations-XML](assets/DETRAC-Train-Annotations-XML.png)
+DETRAC-Train-Annotations-MAT文件是.mat格式存储，只包含了目标的边界框。测试集的格式与训练集相同。
+<br><br>UA-DETRAC数据集绘制之后的情况如下：
+![UA-DETRAC](assets/UA-DETRAC.png)
+红色框表示车辆完全可见，蓝色框表示车辆被其他车辆遮挡，粉色矿表示车辆被背景部分遮挡。左下角为该段序列的天气状况、摄像机状态和车辆密度的信息。
+<br>[UA-DETRAC](http://detrac-db.rit.albany.edu/download)还提供了数据集的评估工具，有用于评估多目标检测的，也有用于多目标跟踪的。该工具包采用Matlab编程，可以用来绘制PR曲线。
+
+### WILDTRACK
+该数据集采用七个具有重叠视场的高科技静态定位相机获取的，具有高度精确的联合摄像机校准以及视图序列之间的同步。视频的分辨率为1920×1080像素，以每秒60帧的速度拍摄。
+<br>数据集中包含：
+1. 以10帧/秒，1920×1080分辨率的帧速率提取的同步帧，并经过后处理来消除失真。
+2. 相机模型的校准文件，与OpenCV库中提供的投影功能兼容。
+3. json文件格式的地面注释。
+4. json文件格式的position文件，方便注重于分类的算法使用。
+
+<br>下载地址在[WILDTRACK](https://www.epfl.ch/labs/cvlab/data/data-wildtrack/)。
+
+### NVIDIA AI CITY Challenge
+NVIDIA AI CITY Challenge是NVIDIA公司举办人工智能城市挑战赛，分为四场比赛：运动车辆计数、车辆重识别、多目标车辆跟踪和交通异常检测。每个比赛都提供了专用的数据集，其中可以用于车俩多目标跟踪的是City-Scale Multi-Camera Vehicle Tracking。
+<br>此数据集大小为15.7个GB，包含215.03分钟的视频，这些视频是从46个摄像机跨越美国中型城市的16个交叉路口收集到的。两个最远的同时摄像头之间的距离为4km。该数据集涵盖了多种位置类型，包括交叉路口，道路延伸和公路。数据集1/2为训练集，1/3为验证集，1/6是测试集。总体而言，数据集包含了近38万个边界框，用于880个不同的带注释的车辆标识，并且仅注释了通过至少2个摄像机的车辆。每个视频的分辨率至少为960p，大多数视频的FPS为10。此外，在每种情况下，每个视频都可以使用从开始时间开始的偏移量来同步。
+<br>下载地址为[NVIDIA AI CITY Challenge](https://www.aicitychallenge.org/2020-data-and-evaluation/)
 
 
 ## 指标
