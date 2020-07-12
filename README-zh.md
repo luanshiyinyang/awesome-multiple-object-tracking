@@ -1,32 +1,6 @@
 # 1. 多目标跟踪
+<!-- TOC -->
 
-<<<<<<< HEAD
-- 多目标跟踪
-    - 论文
-    - 数据集
-        - PETS 2009 Benchmark Data
-        - MOT Challenge
-            - MOT20
-            - MOTS
-        - UA-DETRAC
-        - WILDTRACK
-        - NVIDIA AI CITY Challenge
-        - VisDrone
-        - JTA Dataset
-        - Path Track
-        - KITTI-Tracking
-        - APOLLOSCAPE
-            - Dection/Tracking
-            - Trajectory
-    - 指标
-    - 基准结果
-=======
-## 1.1. 论文
-
-## 1.2. 数据集
-
-以下是监控视角下的数<!-- TOC -->
->>>>>>> f83dd8a7e499f8a67dbf4f0d140d71ad85e5b8ce
 
 - 1. 多目标跟踪
   - 1.1. 论文
@@ -48,7 +22,13 @@
   - 1.3. 指标
   - 1.4. 基准结果
 
-<!-- /TOC -->据集
+<!-- /TOC -->
+
+## 1.1. 论文
+
+## 1.2. 数据集
+
+以下是监控视角下的数据集
 
 ---
 
@@ -220,24 +200,30 @@ Path Track 数据集在 ICCV2017 的论文 PathTrack: Fast Trajectory Annotation
 上图是 Path Track 数据集中的数据统计，图 a 是相机的移动情况，图 b 是场景的分类及统计，图 c 是多方面的数据统计。
 <br>Path Track 的下载地址为[Path Track](https://www.trace.ethz.ch/publications/2017/pathtrack/index.html)。
 
+ ### 1.2.9. TAO
+CMU等在今年提出了一个新的大型MOT数据集，TAO（Tracking Any Objects）。论文地址为[TAO: A Large-Scale Benchmark for Tracking Any Object](https://arxiv.org/abs/2005.10356)。目前，在多目标跟踪的领域中，类别大多只是行人和车辆。忽略了真实世界中的其他物体。众所周知，COCO等类别丰富的大规模数据集极大的促进了目标检测领域的发展，故此，来自CMU等单位的学者们推出了一个类似COCO的类别多样化的MOT数据集（TAO），用于跟踪任何物体，以期为多目标跟踪领域的发展做出一些贡献。<br>数据集包含2907段高分辨率的视频序列，在各种环境中进行捕获，平均时长为半分钟。
+![TAO_wordcloud](assets/TAO%20wordcloud.jpg)
+上图是TAO中的类别形成的词云，其大小按实例数量进行加权，并根据其超类别进行着色。
+<br>数据集的下载以及相关代码的地址为[TAO](https://github.com/TAO-Dataset/tao)。
+
 ---
 
 以下是驾驶场景下的数据集
 
 ---
 
-### 1.2.9. KITTI-Tracking
+### 1.2.10. KITTI-Tracking
 
 KITTI 数据集由德国卡尔斯鲁厄理工学院和丰田美国技术研究院联合创办，是目前国际上最大的自动驾驶场景下的计算机视觉算法评测数据集。该数据集用于评测立体图像(stereo)，光流(optical flow)，视觉测距(visual odometry)，3D 物体检测(object detection)和 3D 跟踪(tracking)等计算机视觉技术在车载环境下的性能。KITTI 包含市区、乡村和高速公路等场景采集的真实图像数据，每张图像中最多达 15 辆车和 30 个行人，还有各种程度的遮挡与截断。整个数据集由 389 对立体图像和光流图，39.2km 视觉测距序列以及超过 200000 的 3D 标注物体的图像组成。总体上看，原始数据集被分类为’Road’, ’City’, ’Residential’, ’Campus’ 和 ’Person’。
 ![KITTI-Tracking](assets/KITTI-Tracking.png)
-<<<<<<< HEAD
 <br>其中，用于目标跟踪的数据集一共有50个视频序列，21个为训练集，29个为测试集。下载地址为[KITTI-Tracking](http://www.cvlibs.net/datasets/kitti/eval_tracking.php)，官网上提供了图像、点云等多种形式的数据，还有地图信息和相机信息。
 ___
 
-### 1.2.10. APOLLOSCAPE
-APOLLOSCAPE是百度公司提供的自动驾驶数据集，包括具有高分辨率图像和每像素标注的RGB视频，具有语义分割的测量级密集3D点，立体视频和全景图像。数据集分为场景解析、车道分割、轨迹、目标检测/跟踪等等若干个子数据集。可用于多目标跟踪的是检测/跟踪子数据集，它是在各种照明条件和交通密度下于中国北京收集的。更具体地说，它包含了非常复杂的交通流，其中混杂着车辆，骑自行车的人和行人。其中大约53分钟的视频序列用于训练，50分钟的视频序列用于测试。其下载地址为：[APOLLOTracking](http://apolloscape.auto/tracking.html)。数据集文件夹结构如下：
+### 1.2.11. APOLLOSCAPE
+APOLLOSCAPE是百度公司提供的自动驾驶数据集，包括具有高分辨率图像和每像素标注的RGB视频，具有语义分割的测量级密集3D点，立体视频和全景图像。数据集分为场景解析、车道分割、轨迹、目标检测/跟踪等等若干个子数据集。
+#### 1.2.11.1 APOLLO Dection/Tracking
+可用于多目标跟踪的是检测/跟踪子数据集，它是在各种照明条件和交通密度下于中国北京收集的。更具体地说，它包含了非常复杂的交通流，其中混杂着车辆，骑自行车的人和行人。其中大约53分钟的视频序列用于训练，50分钟的视频序列用于测试。其下载地址为：[APOLLOTracking](http://apolloscape.auto/tracking.html)。数据集文件夹结构如下：
 1. train.zip：激光雷达数据采用PCD（点云数据）格式，bin文件格式为2hz。
-
 2. detection/ tracking_train_label.zip：此为标签数据
    - 每个文件都是 1 分钟的序列。
    - 文件中每一行都有 frame_id, object_id, object_type, position_x, position_y, position_z, object_length, object_width, object_height, heading。其中 objec_type 只在跟踪时使用。
@@ -246,8 +232,13 @@ APOLLOSCAPE是百度公司提供的自动驾驶数据集，包括具有高分辨
 3. test.zip：测试数据
 4. pose.zip：lidar pose，数据格式为：frame*index, lidar_time, position*(x, y, z), quaternion\_(x, y, z ,w)，其中的 position 为绝对位置，在进行跟踪任务时使用。
 
-<br>官网还提供了评估所用的脚本[metric](https://github.com/sibozhang/dataset-api/tree/master/3d_detection_tracking)。
+<br>官网还提供了评估所用的脚本[metric](https://github.com/sibozhang/dataset-api/tree/master/3d_detection_tracking)。另有一个名为[APOLLO Trajectory](http://apolloscape.auto/trajectory.html)的用于轨迹预测的子数据集，视频序列与上述子数据集相同，只是在标注信息上面略有不同，也可以用于MOT。
 
+#### 1.2.11.2 APOLLO MOTS
+收录于ECCV2020的论文Segment as Points for Efficient
+ Online Multi-Object Tracking中发布了一个新的数据集，其基于已公开的APOLLISCAPE数据集建立的，名为APOLLO MOTS。下图为论文中的表格，对比了APOLLO MOTS和KITTI Tracking数据集。
+ ![APOLLO MOTS](assets/APOLLO%20MOTS.png) 
+ <br>不过该数据集尚未公开。
 
 
 
