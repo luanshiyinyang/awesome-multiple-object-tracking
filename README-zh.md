@@ -1,26 +1,26 @@
 # 1. 多目标跟踪
 <!-- TOC -->
 
-
 - 1. 多目标跟踪
-  - 1.1. 论文
-  - 1.2. 数据集
-    - 1.2.1. PETS 2009 Benchmark Data
-    - 1.2.2. MOT Challenge
-      - 1.2.2.1. MOT20
-      - 1.2.2.2. MOTS
-    - 1.2.3. UA-DETRAC
-    - 1.2.4. WILDTRACK
-    - 1.2.5. NVIDIA AI CITY Challenge
-    - 1.2.6. VisDrone
-    - 1.2.7. JTA Dataset
-    - 1.2.8. Path Track
-    - 1.2.9. KITTI-Tracking
-    - 1.2.10. APOLLOSCAPE
-      - 1.2.10.1. Dection/Tracking
-      - 1.2.10.2. Trajectory
-  - 1.3. 指标
-  - 1.4. 基准结果
+    - 1.1. 论文
+    - 1.2. 数据集
+        - 1.2.1. PETS 2009 Benchmark Data
+        - 1.2.2. MOT Challenge
+            - 1.2.2.1. MOT20
+            - 1.2.2.2. MOTS
+        - 1.2.3. UA-DETRAC
+        - 1.2.4. WILDTRACK
+        - 1.2.5. NVIDIA AI CITY Challenge
+        - 1.2.6. VisDrone
+        - 1.2.7. JTA Dataset
+        - 1.2.8. Path Track
+        - 1.2.9. TAO
+        - 1.2.10. KITTI-Tracking
+        - 1.2.11. APOLLOSCAPE
+            - 1.2.11.1 APOLLO Dection/Tracking
+            - 1.2.11.2 APOLLO MOTS
+    - 1.3. 指标
+    - 1.4. 基准结果
 
 <!-- /TOC -->
 
@@ -36,7 +36,7 @@
 
 该数据集是一个较老的数据集，发布与 2009 年，是包含不同人群活动的多传感器序列，可以用于估计人群人数和密度，跟踪人群中的个人以及检测流量和人群事件。
 数据集具体结构如下：
-
+```
 - 校正数据
 - S0：训练数据
   - 包含设置背景，市中心，常规流量
@@ -46,7 +46,7 @@
   - 包含：L1,L2,L3
 - S3：流分析和事件识别
   - 包含：事件识别和多重流
-
+```
 可用于多目标跟踪的是 S2 部分，从 L1 到 L3，人群密度逐渐增大，困难程度变大。但在处理多个视图的时候，需要用到相机校正数据，将每个人的 2D 边界框投影到其他视图中。
 下载地址为[PETS 2009 Benchmark Data](http://www.cvg.reading.ac.uk/PETS2009/a.html)
 
@@ -72,10 +72,11 @@ MOT 的标签文件分为用于检测的标签和 ground truth 两种，均为 t
 第一个数字是代表帧数；第二个数字-1，意味着没有分配 ID；随后的两个数字分别是 Bbox 的左上角点的坐标；再接着的两个数字是 Bbox 的 w 和 h；后一个数字表示的是置信度；最后三个-1 对检测文件来说没有意义。<br>ground truth 的标注格式为：
 <br>`<frame>, <id>, <bb_left>, <bb_top>, <bb_width>, <bb_height>, <0/1>, <cls>, <vis>`
 <br>例如：<br>
-
+```
 1. 1,1,199,813,140,268,1,1,0.83643
 2. 2,1,201,812,140,268,1,1,0.84015
 3. 3,1,203,812,140,268,1,1,0.84015
+```
 
 第一个数字依旧代表着帧数；第二个数字是该 Bbox 的 ID；后面四个数字是 Bbox 的位置以及大小信息，同上；后一个数字表示的也是置信度，0 代表着 ignored，1 代表着 considered；再后一个数字代表着类别；最后一个数字代表着该目标的可视度（遮挡或者处于图像边界会造成目标部分不可见），值的范围是 0~1，
 
@@ -83,10 +84,10 @@ MOT 的标签文件分为用于检测的标签和 ground truth 两种，均为 t
 
 MOTS 是德国亚琛工业大学计算机视觉实验室在 2019 年发布的提出多目标跟踪与分割的网络 TrackR-CNN 的文章时一同发布的数据集。MOTS 数据集是基于 KITTI_Tracking 和 MOT_Challenge 重新标注的多目标跟踪与分割数据集，是像素级别的数据集。目前只有行人和车辆两个分类。其 GitHub 地址为[mots_tools](https://github.com/VisualComputingInstitute/mots_tools)。下载地址为[MOTS](https://motchallenge.net/data/MOTS/)。
 <br>MOTs 数据集提供了 png 和 txt 两种编码格式。两种格式中 id 值为 10000 都表示着忽略区域。
-<br>png 格式
+<br>**png 格式**
 <br>png 格式具有 16 位的单颜色通道，可通过以下代码读取：
 
-```
+```python
 import PIL.Image as Image
 img = np.array(Image.open("000005.png"))
 obj_ids = np.unique(img)
@@ -98,13 +99,14 @@ obj_instance_id = obj_id % 1000
 
 或者采用 TensorFlow 时，可以采用如下代码：
 
-```
+```python
 ann_data = tf.read_file(ann_filename)
 ann = tf.image.decode_image(ann_data, dtype=tf.uint16, channels=1)
 ```
 
-txt 格式
-txt 文件中的格式为 time_frame，id，class_id，img_height，img_width，rle，rle 为 COCO 中的编码。<br>例如：<br>1 2029 2 1080 1920 kWn[19ZQ1;I0C>000000000000O13M5K2N00001O001O00001O1O005Df\`b0
+**txt 格式**<br>
+txt 文件中的格式为 time_frame，id，class_id，img_height，img_width，rle，rle 为 COCO 中的编码。<br>例如：
+<br>1 2029 2 1080 1920 kWn[19ZQ1;I0C>000000000000O13M5K2N00001O001O00001O1O005Df\`b0
 <br>这代表着第 1 帧，目标 id 为 2029（分类 id 为 2，即行人；实例 id 为 29），图片大小为 1080\*1920。这种格式的文件也可以采用[cocotools](https://github.com/cocodataset/cocoapi)进行解码。
 
 ---
@@ -177,7 +179,7 @@ VisoDrone 是一个规模很大的人工智能视觉领域的竞赛，一般其�
 JTA(Joint Track Auto)数据集是通过利用高度写实视频游戏创造的城市环境下的用于行人姿态估计和跟踪的大型数据集。数据集为 512 个 30 秒长的高清视频序列（256 为训练集，256 为测试集），fps 为 30。在 ECCV2018 的论文 Learning to Detect and Track Visible and Occluded Body Joints in a Virtual World 中提出。获取方法在[JTA](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=25)，需要发送邮件获取 JTA-key 才能下载。
 ![JTA](assets/JTA.png)
 数据集分为视频和标注两部分：
-
+```
 - annotations
   - train: 256 个 json 文件
   - test： 128 个 json 文件
@@ -186,7 +188,7 @@ JTA(Joint Track Auto)数据集是通过利用高度写实视频游戏创造的�
   - train： 256 个视频
   - test： 128 个视频
   - val： 128 个视频
-
+```
 注释的 json 文件中包含目标的十个属性：frame number（从 1 开始计数）、person ID、joint type、x2D、y2D、x3D、y3D、z3D、occluded（1 表示被遮挡）、self-occluded（1 表示被遮挡）。其中 2D 坐标是相对于每一帧的左上角计算，3D 坐标则是在标准的相机坐标系中。
 <br>提供一个用于解析 JTA 数据集的项目，仓库地址为[JTA_tools](https://github.com/fabbrimatteo/JTA-Dataset)，内有将数据集转化成图像的脚本，也提供了注释可视化的脚本。
 
@@ -194,13 +196,12 @@ JTA(Joint Track Auto)数据集是通过利用高度写实视频游戏创造的�
 
 ### 1.2.8. Path Track
 
-Path Track 数据集在 ICCV2017 的论文 PathTrack: Fast Trajectory Annotation with Path Supervision 中被提出，论文中还提出了一个新的框架来队轨迹进行注释。<br>数据集包含 720 个视频序列，有着超过 15000 个人的轨迹。
+Path Track 数据集在 ICCV2017 的论文 PathTrack: Fast Trajectory Annotation with Path Supervision 中被提出，论文中还提出了一个新的框架来队轨迹进行注释。数据集包含 720 个视频序列，有着超过 15000 个人的轨迹。
 ![Path Track](assets/Path%20Track.png)
 ![Path Track statistics](assets/Path%20Track%20statistics.png)
-上图是 Path Track 数据集中的数据统计，图 a 是相机的移动情况，图 b 是场景的分类及统计，图 c 是多方面的数据统计。
-<br>Path Track 的下载地址为[Path Track](https://www.trace.ethz.ch/publications/2017/pathtrack/index.html)。
+上图是 Path Track 数据集中的数据统计，图 a 是相机的移动情况，图 b 是场景的分类及统计，图 c 是多方面的数据统计。Path Track 的下载地址为[Path Track](https://www.trace.ethz.ch/publications/2017/pathtrack/index.html)。
 
- ### 1.2.9. TAO
+### 1.2.9. TAO
 CMU等在今年提出了一个新的大型MOT数据集，TAO（Tracking Any Objects）。论文地址为[TAO: A Large-Scale Benchmark for Tracking Any Object](https://arxiv.org/abs/2005.10356)。目前，在多目标跟踪的领域中，类别大多只是行人和车辆。忽略了真实世界中的其他物体。众所周知，COCO等类别丰富的大规模数据集极大的促进了目标检测领域的发展，故此，来自CMU等单位的学者们推出了一个类似COCO的类别多样化的MOT数据集（TAO），用于跟踪任何物体，以期为多目标跟踪领域的发展做出一些贡献。<br>数据集包含2907段高分辨率的视频序列，在各种环境中进行捕获，平均时长为半分钟。
 ![TAO_wordcloud](assets/TAO%20wordcloud.jpg)
 上图是TAO中的类别形成的词云，其大小按实例数量进行加权，并根据其超类别进行着色。
@@ -223,6 +224,7 @@ ___
 APOLLOSCAPE是百度公司提供的自动驾驶数据集，包括具有高分辨率图像和每像素标注的RGB视频，具有语义分割的测量级密集3D点，立体视频和全景图像。数据集分为场景解析、车道分割、轨迹、目标检测/跟踪等等若干个子数据集。
 #### 1.2.11.1 APOLLO Dection/Tracking
 可用于多目标跟踪的是检测/跟踪子数据集，它是在各种照明条件和交通密度下于中国北京收集的。更具体地说，它包含了非常复杂的交通流，其中混杂着车辆，骑自行车的人和行人。其中大约53分钟的视频序列用于训练，50分钟的视频序列用于测试。其下载地址为：[APOLLOTracking](http://apolloscape.auto/tracking.html)。数据集文件夹结构如下：
+```
 1. train.zip：激光雷达数据采用PCD（点云数据）格式，bin文件格式为2hz。
 2. detection/ tracking_train_label.zip：此为标签数据
    - 每个文件都是 1 分钟的序列。
@@ -231,7 +233,7 @@ APOLLOSCAPE是百度公司提供的自动驾驶数据集，包括具有高分辨
    - head 值是相对于物体方向的转向弧度。
 3. test.zip：测试数据
 4. pose.zip：lidar pose，数据格式为：frame*index, lidar_time, position*(x, y, z), quaternion\_(x, y, z ,w)，其中的 position 为绝对位置，在进行跟踪任务时使用。
-
+```
 <br>官网还提供了评估所用的脚本[metric](https://github.com/sibozhang/dataset-api/tree/master/3d_detection_tracking)。另有一个名为[APOLLO Trajectory](http://apolloscape.auto/trajectory.html)的用于轨迹预测的子数据集，视频序列与上述子数据集相同，只是在标注信息上面略有不同，也可以用于MOT。
 
 #### 1.2.11.2 APOLLO MOTS
