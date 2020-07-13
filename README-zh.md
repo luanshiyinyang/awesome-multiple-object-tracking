@@ -28,6 +28,8 @@
       - [APOLLO MOTS](#apollo-mots)
   - [指标](#指标)
   - [基准结果](#基准结果)
+    - [MOT16](#mot16)
+    - [MOT17](#mot17)
 
 <!-- /TOC -->
 
@@ -374,3 +376,20 @@ Online Multi-Object Tracking 中发布了一个新的数据集，其基于已公
 
 <a id="markdown-基准结果" name="基准结果"></a>
 ## 基准结果
+
+### MOT16
+| 排名| 模型  | MOTA | 论文 | 年份 |
+| :---: | :---: | :---: | :---: | :---: | 
+| 1 | FairMOT | 68.7 | A Simple Baseline for Multi-Object Tracking | 2020 |
+| 2 | JDE | 64.4 | Towards Real-Time Multi-Object Tracking | 2019 |
+|3|Lif_T|61.3|Lifted Disjoint Paths with Application in Multiple Object Tracking|2020|
+|4|MPNTrack|58.6|Learning a Neural Solver for Multiple Object Tracking|2020|
+|5|DeepMOT-Tracktor|54.8|How To Train Your Deep Multi-Object Tracker|2019|
+|6|TNT|49.2|Exploit the Connectivity: Multi-Object Tracking with TrackletNet|2018|
+|7|GCRA|48.2|Trajectory Factory: Tracklet Cleaving and Re-connection by Deep Siamese Bi-GRU for Multiple Object Tracking|2018|
+|8|	FWT|47.8	|Fusion of Head and Full-Body Detectors for Multi-Object Tracking|2017|
+|9|	MOTDT|47.6|Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification|2018|
+|10|NOMT|46.4|Near-Online Multi-target Tracking with Aggregated Local Flow Descriptor|2015|
+|11|DMMOT|46.1|Online Multi-Object Tracking with Dual Matching Attention Networks|2019|
+
+### MOT17
