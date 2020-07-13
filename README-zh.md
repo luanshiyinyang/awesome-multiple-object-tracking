@@ -132,6 +132,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 ---
 
 <a id="markdown-pets-2009-benchmark-data" name="pets-2009-benchmark-data"></a>
+
 ### PETS 2009 Benchmark Data
 
 该数据集是一个较老的数据集，发布与 2009 年，是包含不同人群活动的多传感器序列，可以用于估计人群人数和密度，跟踪人群中的个人以及检测流量和人群事件。
@@ -155,11 +156,13 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 ---
 
 <a id="markdown-mot-challenge" name="mot-challenge"></a>
+
 ### MOT Challenge
 
 MOT Challenge 是多目标跟踪方向一个很有影响力的比赛，专注于行人跟踪。其从 2015 年开始提供用于行人跟踪的数据集，至今包含 2D MOT 2015、MOT16、MOT17、MOT20、MOTs。还有用于检测的 MOT17Det 和 MOT20Det，以及用于石斑鱼跟踪的 3D-ZeF20。
 
 <a id="markdown-mot20" name="mot20"></a>
+
 #### MOT20
 
 用最新的 MOT20 举例，MOT20 包含 4 组训练用的序列以及 4 组测试用的序列。下载地址为[MOT20](https://motchallenge.net/data/MOT20/)。
@@ -186,6 +189,7 @@ MOT 的标签文件分为用于检测的标签和 ground truth 两种，均为 t
 第一个数字依旧代表着帧数；第二个数字是该 Bbox 的 ID；后面四个数字是 Bbox 的位置以及大小信息，同上；后一个数字表示的也是置信度，0 代表着 ignored，1 代表着 considered；再后一个数字代表着类别；最后一个数字代表着该目标的可视度（遮挡或者处于图像边界会造成目标部分不可见），值的范围是 0~1，
 
 <a id="markdown-mots" name="mots"></a>
+
 #### MOTS
 
 MOTS 是德国亚琛工业大学计算机视觉实验室在 2019 年发布的提出多目标跟踪与分割的网络 TrackR-CNN 的文章时一同发布的数据集。MOTS 数据集是基于 KITTI_Tracking 和 MOT_Challenge 重新标注的多目标跟踪与分割数据集，是像素级别的数据集。目前只有行人和车辆两个分类。其 GitHub 地址为[mots_tools](https://github.com/VisualComputingInstitute/mots_tools)。下载地址为[MOTS](https://motchallenge.net/data/MOTS/)。
@@ -218,6 +222,7 @@ txt 文件中的格式为 time_frame，id，class_id，img_height，img_width，
 ---
 
 <a id="markdown-ua-detrac" name="ua-detrac"></a>
+
 ### UA-DETRAC
 
 UA-DETRAC 是一个车辆多目标检测和跟踪的数据集。数据集包含了在中国北京和天津 24 个不同地点使用 Cannon EOS 550D 摄像机拍摄的 10 个小时的视频。视频以每秒 25 帧（fps）的速度录制，分辨率为 960×540 像素。UA-DETRAC 数据集中有超过 14 万个帧，并且有 8250 辆车进行了手动注释，因此总共有 121 万个带标签的对象边界框。下载地址为[UA-DETRAC](http://detrac-db.rit.albany.edu/download)。数据集结构如下：
@@ -247,6 +252,7 @@ DETRAC-Train-Annotations-MAT 文件是.mat 格式存储，只包含了目标的�
 ---
 
 <a id="markdown-wildtrack" name="wildtrack"></a>
+
 ### WILDTRACK
 
 该数据集采用七个具有重叠视场的高科技静态定位相机获取的，具有高度精确的联合摄像机校准以及视图序列之间的同步。视频的分辨率为 1920×1080 像素，以每秒 60 帧的速度拍摄。
@@ -262,6 +268,7 @@ DETRAC-Train-Annotations-MAT 文件是.mat 格式存储，只包含了目标的�
 ---
 
 <a id="markdown-nvidia-ai-city-challenge" name="nvidia-ai-city-challenge"></a>
+
 ### NVIDIA AI CITY Challenge
 
 NVIDIA AI CITY Challenge 是 NVIDIA 公司举办人工智能城市挑战赛，分为四场比赛：运动车辆计数、车辆重识别、多目标车辆跟踪和交通异常检测。每个比赛都提供了专用的数据集，其中可以用于车俩多目标跟踪的是 City-Scale Multi-Camera Vehicle Tracking。
@@ -271,6 +278,7 @@ NVIDIA AI CITY Challenge 是 NVIDIA 公司举办人工智能城市挑战赛，�
 ---
 
 <a id="markdown-visdrone" name="visdrone"></a>
+
 ### VisDrone
 
 VisoDrone 是一个规模很大的人工智能视觉领域的竞赛，一般其提供的数据集是由无人机拍摄得到。以 VisDrone2020 为例，VisDrone2020 数据集由中国天津大学机器学习和数据挖掘实验室的 AISKYEYE 团队收集，由 265228 帧和包含 10209 静态图像的 400 个视频片段组成，包含 260 万个手动注释的 Bbox。这些视频片段由各种安装在无人机上的摄像机捕获，涵盖范围广泛，比如位置（取自中国数千个相距数千公里的 14 个不同城市）、环境（城市和乡村）、物体（行人、车辆、自行车等）和密度（稀疏和拥挤的场景）。
@@ -285,6 +293,7 @@ VisoDrone 是一个规模很大的人工智能视觉领域的竞赛，一般其�
 ---
 
 <a id="markdown-jta-dataset" name="jta-dataset"></a>
+
 ### JTA Dataset
 
 JTA(Joint Track Auto)数据集是通过利用高度写实视频游戏创造的城市环境下的用于行人姿态估计和跟踪的大型数据集。数据集为 512 个 30 秒长的高清视频序列（256 为训练集，256 为测试集），fps 为 30。在 ECCV2018 的论文 Learning to Detect and Track Visible and Occluded Body Joints in a Virtual World 中提出。获取方法在[JTA](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=25)，需要发送邮件获取 JTA-key 才能下载。
@@ -308,6 +317,7 @@ JTA(Joint Track Auto)数据集是通过利用高度写实视频游戏创造的�
 ---
 
 <a id="markdown-path-track" name="path-track"></a>
+
 ### Path Track
 
 Path Track 数据集在 ICCV2017 的论文 PathTrack: Fast Trajectory Annotation with Path Supervision 中被提出，论文中还提出了一个新的框架来队轨迹进行注释。数据集包含 720 个视频序列，有着超过 15000 个人的轨迹。
@@ -316,6 +326,7 @@ Path Track 数据集在 ICCV2017 的论文 PathTrack: Fast Trajectory Annotation
 上图是 Path Track 数据集中的数据统计，图 a 是相机的移动情况，图 b 是场景的分类及统计，图 c 是多方面的数据统计。Path Track 的下载地址为[Path Track](https://www.trace.ethz.ch/publications/2017/pathtrack/index.html)。
 
 <a id="markdown-tao" name="tao"></a>
+
 ### TAO
 
 CMU 等在今年提出了一个新的大型 MOT 数据集，TAO（Tracking Any Objects）。论文地址为[TAO: A Large-Scale Benchmark for Tracking Any Object](https://arxiv.org/abs/2005.10356)。目前，在多目标跟踪的领域中，类别大多只是行人和车辆。忽略了真实世界中的其他物体。众所周知，COCO 等类别丰富的大规模数据集极大的促进了目标检测领域的发展，故此，来自 CMU 等单位的学者们推出了一个类似 COCO 的类别多样化的 MOT 数据集（TAO），用于跟踪任何物体，以期为多目标跟踪领域的发展做出一些贡献。<br>数据集包含 2907 段高分辨率的视频序列，在各种环境中进行捕获，平均时长为半分钟。
@@ -330,6 +341,7 @@ CMU 等在今年提出了一个新的大型 MOT 数据集，TAO（Tracking Any O
 ---
 
 <a id="markdown-kitti-tracking" name="kitti-tracking"></a>
+
 ### KITTI-Tracking
 
 KITTI 数据集由德国卡尔斯鲁厄理工学院和丰田美国技术研究院联合创办，是目前国际上最大的自动驾驶场景下的计算机视觉算法评测数据集。该数据集用于评测立体图像(stereo)，光流(optical flow)，视觉测距(visual odometry)，3D 物体检测(object detection)和 3D 跟踪(tracking)等计算机视觉技术在车载环境下的性能。KITTI 包含市区、乡村和高速公路等场景采集的真实图像数据，每张图像中最多达 15 辆车和 30 个行人，还有各种程度的遮挡与截断。整个数据集由 389 对立体图像和光流图，39.2km 视觉测距序列以及超过 200000 的 3D 标注物体的图像组成。总体上看，原始数据集被分类为’Road’, ’City’, ’Residential’, ’Campus’ 和 ’Person’。
@@ -339,11 +351,13 @@ KITTI 数据集由德国卡尔斯鲁厄理工学院和丰田美国技术研究�
 ---
 
 <a id="markdown-apolloscape" name="apolloscape"></a>
+
 ### APOLLOSCAPE
 
 APOLLOSCAPE 是百度公司提供的自动驾驶数据集，包括具有高分辨率图像和每像素标注的 RGB 视频，具有语义分割的测量级密集 3D 点，立体视频和全景图像。数据集分为场景解析、车道分割、轨迹、目标检测/跟踪等等若干个子数据集。
 
 <a id="markdown-apollo-dectiontracking" name="apollo-dectiontracking"></a>
+
 #### APOLLO Dection/Tracking
 
 可用于多目标跟踪的是检测/跟踪子数据集，它是在各种照明条件和交通密度下于中国北京收集的。更具体地说，它包含了非常复杂的交通流，其中混杂着车辆，骑自行车的人和行人。其中大约 53 分钟的视频序列用于训练，50 分钟的视频序列用于测试。其下载地址为：[APOLLOTracking](http://apolloscape.auto/tracking.html)。数据集文件夹结构如下：
@@ -362,6 +376,7 @@ APOLLOSCAPE 是百度公司提供的自动驾驶数据集，包括具有高分�
 <br>官网还提供了评估所用的脚本[metric](https://github.com/sibozhang/dataset-api/tree/master/3d_detection_tracking)。另有一个名为[APOLLO Trajectory](http://apolloscape.auto/trajectory.html)的用于轨迹预测的子数据集，视频序列与上述子数据集相同，只是在标注信息上面略有不同，也可以用于 MOT。
 
 <a id="markdown-apollo-mots" name="apollo-mots"></a>
+
 #### APOLLO MOTS
 
 收录于 ECCV2020 的论文 Segment as Points for Efficient
@@ -370,7 +385,55 @@ Online Multi-Object Tracking 中发布了一个新的数据集，其基于已公
 <br>不过该数据集尚未公开。
 
 <a id="markdown-指标" name="指标"></a>
+
 ## 指标
+多目标跟踪（MOT）方法的评价指标是至关重要的，因为它们公平地定量地比较了不同算法的优劣。
+
+首先，P是Positive，N是Negative，P和N表示模型的判断结果；T是True，F是False，T和F表示模型的判断结果是否正确。所以可以得到：
++ FP：假正例
++ FN：假负例
++ TP：真正例
++ TN：真负例
+
+<br>所以，Accuracy、Recall和Precision分别表示为：
++ $$ Accuracy = {{TP + TN} \over {TP + TN + FP + FN}} $$
++ $$ Recall = {TP \over {TP + FN}} = TPR$$
++ $$ Precision = {TP \over {TP + FP}} $$
++ $$ MA = {FN \over {TP + FN}} $$
++ $$ FA = {FP \over {TP + FP}} $$
+三个指标中最直接的便是准确率（Accuracy），即模型判断正确的数据占总数据的比例。召回率（Recall）是针对数据集中的所有正例而言,即模型正确判断出的正例占数据集中所有正例的比例，召回率与真正类率（TPR，True Positive Rate）是相同的。精确率（Precision）是针对模型判断出的所有正例而言,即真正例占的比率，精确率也叫查准率,以目标检测为例,精确率高表示模型检测出的目标中大部分确实是目标,只有少量不是目标的对象被当成目标。MA（missing alarm）反映了有多少个正例被漏判了。FA（false alarm）反映了被判断为正例的样本中，有多少其实是负例。<br>在一定程度上来说，Precision和Recall是“对立”的，当IoU（Intersection of Union）的判别阈值增大时（IoU更大的才被判别为正例），Precision会增大，而Recall会减小；当IoU阈值减小时，Precision会减小，而Recall会增大。也就是说，不同的Recall值对应着不同的Precision值，以Recall值为横坐标，以Precision为纵坐标，把取不同阈值时的结果画到图上，就得到了下图中的PR曲线。
+![P-R](assets/P-R%20Curve.png)
+计算不同Recall值下的Precision值的平均值，便可以得到AP（Average Precision）。AP衡量的是模型在某一类别上的好坏，而mAP衡量的是模型在所有类别上的好坏，即求出每个类别的AP，再求其平均值，变得到了mAP。
+<br><br>在MOT中，IDs（ID switch）和FM（fragmentation）也是很重要的指标：
+
++ IDs：每一次跟踪的GT（ground truth）目标ID发生一次错误的变化记为一次ID switch，其次数即为IDs
++ FM：每一个跟踪的GT轨迹发生一次断开并恢复称为一次fragmentation，其次数即为FM
+
+从上述的几个指标可以计算出更为精确的评价MOT模型的指标MOTA（Multiple Object Tracking Accuracy）：
++ $$MOTA = 1 - {\sum_t(FN + FP + IDs)\over \sum_t gt}$$
+
+这里的t代表着帧数t，MOTA的值域为$(-\infty,1]$。值得注意的是MOTA是可能为负值的，因为算法发生的错误是可能多于ground truth中的Bbox数量。另一个指标MOTP（Multiple Object Tracking Precision）有时也可以取代MOTA，它代表着MOT的精确度，体现在确定目标位置上的精确度，用于衡量目标位置确定的精确程度：
++ $$ MOTP = {\sum_{t,i}d_t^i \over \sum_tc_t }$$
+
+其中，$c_t$表示第t帧中模型预测与ground truth的匹配的个数，$d_t^i$表示第t帧中目标i与模型预测出的位置的欧氏距离，即匹配误差。<br><br>MOTA和MOTP共同衡量着算法连续跟踪目标的能力。而对于目标ID方面，除了最基本的IDs，还有其他几个指标，比如IDP（Identification precision)、IDR（Identification recall）和IDF1（Identification F1）也很重要：
++ $$ IDP = {IDTP \over {IDTP + IDFP}} $$
++ $$ IDR = {IDTP \over {IDTP + IDFN}} $$
++ $$ IDF1 = {2 \over {{1 \over IDP} + {1 \over IDR}}} = {2IDTP \over {2IDTP + IDFP + IDFN}} $$
+
+顾名思义，上述三个指标即为目标ID方面的精确率、召回率和F1指标。下面提到的三个指标，是用来对模型预测的目标整段轨迹进行衡量的。
++ MT：跟踪器预测出来的轨迹占ground truth的80%以上的比例
++ ML：跟踪器预测出来的轨迹占ground truth的20%以下的比例
++ PT：$PT = 1.0 - MT - ML$
+
+下面再列举一些并不常用的指标：
++ MODA：Multi-Object Detection Accuracy
++ MODP：Multi-Object Detection Precision
++ FPPI：$FPPI = {FP \over N}$,其中N代表着总帧数
++ TDE：跟踪器预测结果与ground truth中的注释的距离（用于计算MOTP）
++ OSPA：预测结果与ground truth之间的基数误差和空间距离
++ RS：较短遮挡后正确恢复的轨迹所占的比例
++ RL：长时间遮挡后正确恢复的轨迹所占的比例
 
 <a id="markdown-基准结果" name="基准结果"></a>
+
 ## 基准结果
