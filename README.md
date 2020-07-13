@@ -5,9 +5,8 @@
 <!-- TOC -->
 
 - [Awesome Multiple object Tracking: ![Awesome](https://github.com/sindresorhus/awesome)](#awesome-multiple-object-tracking-img-srchttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvg-altawesome)
-  - [Papers](#papers)
-    - [Review papers](#review-papers)
-    - [Algorithm papers](#algorithm-papers)
+  - [Review papers](#review-papers)
+  - [Algorithm papers](#algorithm-papers)
     - [**2020**](#2020)
     - [**2019**](#2019)
     - [**2018**](#2018)
@@ -22,11 +21,8 @@
 <!-- /TOC -->
 
 
-
-<a id="markdown-papers" name="papers"></a>
-## Papers
 <a id="markdown-review-papers" name="review-papers"></a>
-### Review papers
+## Review papers
 
 Multiple Object Tracking: A Literature Review [[paper]](https://arxiv.org/pdf/1409.7618.pdf)
 
@@ -35,7 +31,7 @@ Deep Learning in Video Multi-Object Tracking: A Survey [[paper]](https://arxiv.o
 Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tracking [[paper]](https://arxiv.org/pdf/1704.02781.pdf)
 
 <a id="markdown-algorithm-papers" name="algorithm-papers"></a>
-### Algorithm papers
+## Algorithm papers
 
 <a id="markdown-2020" name="2020"></a>
 ### **2020**
