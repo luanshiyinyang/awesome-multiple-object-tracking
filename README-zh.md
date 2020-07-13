@@ -1,10 +1,14 @@
 # 多目标跟踪
+
 <!-- TOC -->
 
 - 综述论文
 - 算法论文
     - **2020**
     - **2019**
+    - **2018**
+    - **2017**
+    - **2016**
 - 1.2. 数据集
     - 1.2.1. PETS 2009 Benchmark Data
     - 1.2.2. MOT Challenge
@@ -32,12 +36,13 @@ Multiple Object Tracking: A Literature Review [[paper]](https://arxiv.org/pdf/14
 
 Deep Learning in Video Multi-Object Tracking: A Survey [[paper]](https://arxiv.org/pdf/1907.12740.pdf)
 
-Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tracking [[paper]]((https://arxiv.org/pdf/1704.02781.pdf))
+Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tracking [[paper]](<(https://arxiv.org/pdf/1704.02781.pdf)>)
 
 ## 算法论文
+
 ### **2020**
 
-**MPNTracker**: Learning a Neural Solver for Multiple Object Tracking [[code]](https://github.com/dvl-tum/mot_neural_solver)[[paper]](https://arxiv.org/pdf/1912.07515.pdf)
+**MPNTracker|GMOT**: Learning a Neural Solver for Multiple Object Tracking [[code]](https://github.com/dvl-tum/mot_neural_solver)[[paper]](https://arxiv.org/pdf/1912.07515.pdf)
 
 **UMA**: A Unified Object Motion and Affinity Model for Online Multi-Object Tracking [[code]](https://github.com/yinjunbo/UMA-MOT)[[paper]](https://arxiv.org/pdf/2003.11291.pdf)
 
@@ -55,22 +60,61 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 **MIFT**: Refinements in Motion and Appearance for Online Multi-Object Tracking [[code]](https://github.com/nightmaredimple/libmot)[[paper]](https://arxiv.org/pdf/2003.07177.pdf)
 
-**DeepMOT**: How To Train Your Deep Multi-Object Tracker [[code]](https://github.com/yihongXU/deepMOT)[[paper]](https://arxiv.org/pdf/1906.06618.pdf)
-
 **EDA_GNN**: Graph Neural Based End-to-end Data Association Framework for Online Multiple-Object Tracking [[code]](https://github.com/peizhaoli05/EDA_GNN)[[paper]](https://arxiv.org/pdf/1907.05315.pdf)
 
 **GNMOT**: Graph Networks for Multiple Object Tracking [[code]](https://github.com/yinizhizhu/GNMOT)[[paper]](https://link.zhihu.com/?target=https%3A//ieeexplore.ieee.org/stamp/stamp.jsp%3Ftp%3D%26arnumber%3D9093347)
-
-
 
 ### **2019**
 
 **Tracktor++**: Tracking without bells and whistles [[code]](https://github.com/phil-bergmann/tracking_wo_bnw)[[paper]](https://arxiv.org/pdf/1903.05625.pdf)
 
+**DeepMOT**: How To Train Your Deep Multi-Object Tracker [[code]](https://github.com/yihongXU/deepMOT)[[paper]](https://arxiv.org/pdf/1906.06618.pdf)
+
 **JDE**: Towards Real-Time Multi-Object Tracking [[code]](https://github.com/Zhongdao/Towards-Realtime-MOT)[[paper]](https://arxiv.org/pdf/1909.12605v1.pdf)
 
+**MOTS**: MOTS: Multi-Object Tracking and Segmentation[[paper]](https://arxiv.org/pdf/1902.03604.pdf)
 
+**FANTrack**: FANTrack: 3D Multi-Object Tracking with Feature Association Network [[code]](https://git.uwaterloo.ca/wise-lab/fantrack)[[paper]](https://arxiv.org/pdf/1905.02843.pdf)
 
+### **2018**
+
+**DeepCC**: Features for Multi-Target Multi-Camera Tracking and Re-Identification [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ristani_Features_for_Multi-Target_CVPR_2018_paper.pdf)
+
+**SADF**: Online Multi-Object Tracking with Historical Appearance Matching and Scene Adaptive Detection Filtering [[paper]](https://arxiv.org/pdf/1805.10916.pdf)
+
+**DAN**: Deep Affinity Network for Multiple Object Tracking [[code]](https://link.zhihu.com/?target=https%3A//github.com/shijieS/SST.git)[[paper]](https://link.zhihu.com/?target=http%3A//arxiv.org/abs/1810.11780)
+
+**DMAN**: Online Multi-Object Tracking with Dual Matching Attention Networks [[code]](https://github.com/jizhu1023/DMAN_MOT)[[paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Ji_Zhu_Online_Multi-Object_Tracking_ECCV_2018_paper.pdf)
+
+**MOTBeyondPixels**: Beyond Pixels: Leveraging Geometry and Shape Cues for Online Multi-Object Tracking [[code]](https://github.com/JunaidCS032/MOTBeyondPixels)[[paper]](http://arxiv.org/abs/1802.09298)
+
+**MOTDT**: Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification [[code]](https://github.com/longcw/MOTDT)[[paper]](https://arxiv.org/abs/1809.04427)
+
+**DetTA**: Detection-Tracking for Efficient Person Analysis: The DetTA Pipeline [[code]](https://github.com/sbreuers/detta)[[paper]](https://arxiv.org/abs/1804.10134)
+
+**V-IOU**: Extending IOU Based Multi-Object Tracking by Visual Information [[code]](https://github.com/bochinski/iou-tracker/)[[paper]](http://elvera.nue.tu-berlin.de/files/1547Bochinski2018.pdf)
+
+### **2017**
+
+**DeepSORT**: Simple Online and Realtime Tracking with a Deep Association Metric [[code]](https://github.com/nwojke/deep_sort)[[paper]](https://arxiv.org/pdf/1703.07402.pdf)
+
+**NMGC-MOT**: Non-Markovian Globally Consistent Multi-Object Tracking [[code]](https://github.com/maksay/ptrack_cpp)[[paper]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Maksai_Non-Markovian_Globally_Consistent_ICCV_2017_paper.pdf)
+
+**IOUTracker**: High-Speed tracking-by-detection without using image information [[code]](https://github.com/bochinski/iou-tracker/)[[paper]](http://elvera.nue.tu-berlin.de/typo3/files/1517Bochinski2017.pdf)
+
+**RNN_LSTM**: Online Multi-Target Tracking Using Recurrent Neural Networks [[code]](https://bitbucket.org/amilan/rnntracking)[[paper]](https://arxiv.org/abs/1604.03635)
+
+**D2T**: Detect to Track and Track to Detect [[code]](https://github.com/feichtenhofer/Detect-Track)[[paper]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Feichtenhofer_Detect_to_Track_ICCV_2017_paper.pdf)
+
+**RCMSS**: Online multi-object tracking via robust collaborative model and sample selection [[paper]](https://faculty.ucmerced.edu/mhyang/papers/cviu16_MOT.pdf)
+
+**towards-reid-tracking**: Towards a Principled Integration of Multi-Camera Re-Identification and Tracking through Optimal Bayes Filters [[code]](https://github.com/VisualComputingInstitute/towards-reid-tracking)[[paper]](https://arxiv.org/pdf/1705.04608.pdf)
+
+**CIWT**: Combined image-and world-space tracking in traffic scenes [[code]](https://github.com/aljosaosep/ciwt)[[paper]](https://arxiv.org/pdf/1809.07357.pdf)
+
+### **2016**
+
+**SORT**: Simple online and realtime tracking [[code]](https://link.zhihu.com/?target=https%3A//github.com/abewley/sort)[[paper]](https://arxiv.org/pdf/1602.00763.pdf)
 
 ## 1.2. 数据集
 
@@ -82,6 +126,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 该数据集是一个较老的数据集，发布与 2009 年，是包含不同人群活动的多传感器序列，可以用于估计人群人数和密度，跟踪人群中的个人以及检测流量和人群事件。
 数据集具体结构如下：
+
 ```
 - 校正数据
 - S0：训练数据
@@ -93,6 +138,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 - S3：流分析和事件识别
   - 包含：事件识别和多重流
 ```
+
 可用于多目标跟踪的是 S2 部分，从 L1 到 L3，人群密度逐渐增大，困难程度变大。但在处理多个视图的时候，需要用到相机校正数据，将每个人的 2D 边界框投影到其他视图中。
 下载地址为[PETS 2009 Benchmark Data](http://www.cvg.reading.ac.uk/PETS2009/a.html)
 
@@ -118,6 +164,7 @@ MOT 的标签文件分为用于检测的标签和 ground truth 两种，均为 t
 第一个数字是代表帧数；第二个数字-1，意味着没有分配 ID；随后的两个数字分别是 Bbox 的左上角点的坐标；再接着的两个数字是 Bbox 的 w 和 h；后一个数字表示的是置信度；最后三个-1 对检测文件来说没有意义。<br>ground truth 的标注格式为：
 <br>`<frame>, <id>, <bb_left>, <bb_top>, <bb_width>, <bb_height>, <0/1>, <cls>, <vis>`
 <br>例如：<br>
+
 ```
 1. 1,1,199,813,140,268,1,1,0.83643
 2. 2,1,201,812,140,268,1,1,0.84015
@@ -225,6 +272,7 @@ VisoDrone 是一个规模很大的人工智能视觉领域的竞赛，一般其�
 JTA(Joint Track Auto)数据集是通过利用高度写实视频游戏创造的城市环境下的用于行人姿态估计和跟踪的大型数据集。数据集为 512 个 30 秒长的高清视频序列（256 为训练集，256 为测试集），fps 为 30。在 ECCV2018 的论文 Learning to Detect and Track Visible and Occluded Body Joints in a Virtual World 中提出。获取方法在[JTA](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=25)，需要发送邮件获取 JTA-key 才能下载。
 ![JTA](assets/JTA.png)
 数据集分为视频和标注两部分：
+
 ```
 - annotations
   - train: 256 个 json 文件
@@ -235,6 +283,7 @@ JTA(Joint Track Auto)数据集是通过利用高度写实视频游戏创造的�
   - test： 128 个视频
   - val： 128 个视频
 ```
+
 注释的 json 文件中包含目标的十个属性：frame number（从 1 开始计数）、person ID、joint type、x2D、y2D、x3D、y3D、z3D、occluded（1 表示被遮挡）、self-occluded（1 表示被遮挡）。其中 2D 坐标是相对于每一帧的左上角计算，3D 坐标则是在标准的相机坐标系中。
 <br>提供一个用于解析 JTA 数据集的项目，仓库地址为[JTA_tools](https://github.com/fabbrimatteo/JTA-Dataset)，内有将数据集转化成图像的脚本，也提供了注释可视化的脚本。
 
@@ -248,9 +297,10 @@ Path Track 数据集在 ICCV2017 的论文 PathTrack: Fast Trajectory Annotation
 上图是 Path Track 数据集中的数据统计，图 a 是相机的移动情况，图 b 是场景的分类及统计，图 c 是多方面的数据统计。Path Track 的下载地址为[Path Track](https://www.trace.ethz.ch/publications/2017/pathtrack/index.html)。
 
 ### 1.2.9. TAO
-CMU等在今年提出了一个新的大型MOT数据集，TAO（Tracking Any Objects）。论文地址为[TAO: A Large-Scale Benchmark for Tracking Any Object](https://arxiv.org/abs/2005.10356)。目前，在多目标跟踪的领域中，类别大多只是行人和车辆。忽略了真实世界中的其他物体。众所周知，COCO等类别丰富的大规模数据集极大的促进了目标检测领域的发展，故此，来自CMU等单位的学者们推出了一个类似COCO的类别多样化的MOT数据集（TAO），用于跟踪任何物体，以期为多目标跟踪领域的发展做出一些贡献。<br>数据集包含2907段高分辨率的视频序列，在各种环境中进行捕获，平均时长为半分钟。
+
+CMU 等在今年提出了一个新的大型 MOT 数据集，TAO（Tracking Any Objects）。论文地址为[TAO: A Large-Scale Benchmark for Tracking Any Object](https://arxiv.org/abs/2005.10356)。目前，在多目标跟踪的领域中，类别大多只是行人和车辆。忽略了真实世界中的其他物体。众所周知，COCO 等类别丰富的大规模数据集极大的促进了目标检测领域的发展，故此，来自 CMU 等单位的学者们推出了一个类似 COCO 的类别多样化的 MOT 数据集（TAO），用于跟踪任何物体，以期为多目标跟踪领域的发展做出一些贡献。<br>数据集包含 2907 段高分辨率的视频序列，在各种环境中进行捕获，平均时长为半分钟。
 ![TAO_wordcloud](assets/TAO%20wordcloud.jpg)
-上图是TAO中的类别形成的词云，其大小按实例数量进行加权，并根据其超类别进行着色。
+上图是 TAO 中的类别形成的词云，其大小按实例数量进行加权，并根据其超类别进行着色。
 <br>数据集的下载以及相关代码的地址为[TAO](https://github.com/TAO-Dataset/tao)。
 
 ---
@@ -263,13 +313,18 @@ CMU等在今年提出了一个新的大型MOT数据集，TAO（Tracking Any Obje
 
 KITTI 数据集由德国卡尔斯鲁厄理工学院和丰田美国技术研究院联合创办，是目前国际上最大的自动驾驶场景下的计算机视觉算法评测数据集。该数据集用于评测立体图像(stereo)，光流(optical flow)，视觉测距(visual odometry)，3D 物体检测(object detection)和 3D 跟踪(tracking)等计算机视觉技术在车载环境下的性能。KITTI 包含市区、乡村和高速公路等场景采集的真实图像数据，每张图像中最多达 15 辆车和 30 个行人，还有各种程度的遮挡与截断。整个数据集由 389 对立体图像和光流图，39.2km 视觉测距序列以及超过 200000 的 3D 标注物体的图像组成。总体上看，原始数据集被分类为’Road’, ’City’, ’Residential’, ’Campus’ 和 ’Person’。
 ![KITTI-Tracking](assets/KITTI-Tracking.png)
-<br>其中，用于目标跟踪的数据集一共有50个视频序列，21个为训练集，29个为测试集。下载地址为[KITTI-Tracking](http://www.cvlibs.net/datasets/kitti/eval_tracking.php)，官网上提供了图像、点云等多种形式的数据，还有地图信息和相机信息。
-___
+<br>其中，用于目标跟踪的数据集一共有 50 个视频序列，21 个为训练集，29 个为测试集。下载地址为[KITTI-Tracking](http://www.cvlibs.net/datasets/kitti/eval_tracking.php)，官网上提供了图像、点云等多种形式的数据，还有地图信息和相机信息。
+
+---
 
 ### 1.2.11. APOLLOSCAPE
-APOLLOSCAPE是百度公司提供的自动驾驶数据集，包括具有高分辨率图像和每像素标注的RGB视频，具有语义分割的测量级密集3D点，立体视频和全景图像。数据集分为场景解析、车道分割、轨迹、目标检测/跟踪等等若干个子数据集。
+
+APOLLOSCAPE 是百度公司提供的自动驾驶数据集，包括具有高分辨率图像和每像素标注的 RGB 视频，具有语义分割的测量级密集 3D 点，立体视频和全景图像。数据集分为场景解析、车道分割、轨迹、目标检测/跟踪等等若干个子数据集。
+
 #### 1.2.11.1 APOLLO Dection/Tracking
-可用于多目标跟踪的是检测/跟踪子数据集，它是在各种照明条件和交通密度下于中国北京收集的。更具体地说，它包含了非常复杂的交通流，其中混杂着车辆，骑自行车的人和行人。其中大约53分钟的视频序列用于训练，50分钟的视频序列用于测试。其下载地址为：[APOLLOTracking](http://apolloscape.auto/tracking.html)。数据集文件夹结构如下：
+
+可用于多目标跟踪的是检测/跟踪子数据集，它是在各种照明条件和交通密度下于中国北京收集的。更具体地说，它包含了非常复杂的交通流，其中混杂着车辆，骑自行车的人和行人。其中大约 53 分钟的视频序列用于训练，50 分钟的视频序列用于测试。其下载地址为：[APOLLOTracking](http://apolloscape.auto/tracking.html)。数据集文件夹结构如下：
+
 ```
 1. train.zip：激光雷达数据采用PCD（点云数据）格式，bin文件格式为2hz。
 2. detection/ tracking_train_label.zip：此为标签数据
@@ -280,15 +335,15 @@ APOLLOSCAPE是百度公司提供的自动驾驶数据集，包括具有高分辨
 3. test.zip：测试数据
 4. pose.zip：lidar pose，数据格式为：frame*index, lidar_time, position*(x, y, z), quaternion\_(x, y, z ,w)，其中的 position 为绝对位置，在进行跟踪任务时使用。
 ```
-<br>官网还提供了评估所用的脚本[metric](https://github.com/sibozhang/dataset-api/tree/master/3d_detection_tracking)。另有一个名为[APOLLO Trajectory](http://apolloscape.auto/trajectory.html)的用于轨迹预测的子数据集，视频序列与上述子数据集相同，只是在标注信息上面略有不同，也可以用于MOT。
+
+<br>官网还提供了评估所用的脚本[metric](https://github.com/sibozhang/dataset-api/tree/master/3d_detection_tracking)。另有一个名为[APOLLO Trajectory](http://apolloscape.auto/trajectory.html)的用于轨迹预测的子数据集，视频序列与上述子数据集相同，只是在标注信息上面略有不同，也可以用于 MOT。
 
 #### 1.2.11.2 APOLLO MOTS
-收录于ECCV2020的论文Segment as Points for Efficient
- Online Multi-Object Tracking中发布了一个新的数据集，其基于已公开的APOLLISCAPE数据集建立的，名为APOLLO MOTS。下图为论文中的表格，对比了APOLLO MOTS和KITTI Tracking数据集。
- ![APOLLO MOTS](assets/APOLLO%20MOTS.png) 
- <br>不过该数据集尚未公开。
 
-
+收录于 ECCV2020 的论文 Segment as Points for Efficient
+Online Multi-Object Tracking 中发布了一个新的数据集，其基于已公开的 APOLLISCAPE 数据集建立的，名为 APOLLO MOTS。下图为论文中的表格，对比了 APOLLO MOTS 和 KITTI Tracking 数据集。
+![APOLLO MOTS](assets/APOLLO%20MOTS.png)
+<br>不过该数据集尚未公开。
 
 ## 1.3. 指标
 
