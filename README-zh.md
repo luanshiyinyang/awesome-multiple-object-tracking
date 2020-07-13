@@ -1,26 +1,28 @@
-# 1. 多目标跟踪
+# 多目标跟踪
 <!-- TOC -->
 
-- 1. 多目标跟踪
-    - 1.1. 论文
-    - 1.2. 数据集
-        - 1.2.1. PETS 2009 Benchmark Data
-        - 1.2.2. MOT Challenge
-            - 1.2.2.1. MOT20
-            - 1.2.2.2. MOTS
-        - 1.2.3. UA-DETRAC
-        - 1.2.4. WILDTRACK
-        - 1.2.5. NVIDIA AI CITY Challenge
-        - 1.2.6. VisDrone
-        - 1.2.7. JTA Dataset
-        - 1.2.8. Path Track
-        - 1.2.9. TAO
-        - 1.2.10. KITTI-Tracking
-        - 1.2.11. APOLLOSCAPE
-            - 1.2.11.1 APOLLO Dection/Tracking
-            - 1.2.11.2 APOLLO MOTS
-    - 1.3. 指标
-    - 1.4. 基准结果
+- 综述论文
+- 算法论文
+    - **2020**
+    - **2019**
+- 1.2. 数据集
+    - 1.2.1. PETS 2009 Benchmark Data
+    - 1.2.2. MOT Challenge
+        - 1.2.2.1. MOT20
+        - 1.2.2.2. MOTS
+    - 1.2.3. UA-DETRAC
+    - 1.2.4. WILDTRACK
+    - 1.2.5. NVIDIA AI CITY Challenge
+    - 1.2.6. VisDrone
+    - 1.2.7. JTA Dataset
+    - 1.2.8. Path Track
+    - 1.2.9. TAO
+    - 1.2.10. KITTI-Tracking
+    - 1.2.11. APOLLOSCAPE
+        - 1.2.11.1 APOLLO Dection/Tracking
+        - 1.2.11.2 APOLLO MOTS
+- 1.3. 指标
+- 1.4. 基准结果
 
 <!-- /TOC -->
 
