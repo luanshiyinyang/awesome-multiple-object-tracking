@@ -2,6 +2,7 @@
 
 > A curated list of multi-object-tracking and related area resources. It only contains online methods.
 
+## Contents
 <!-- TOC -->
 
   - [Review papers](#review-papers)
