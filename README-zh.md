@@ -30,6 +30,7 @@
 
 <!-- /TOC -->
 
+<a id="markdown-综述论文" name="综述论文"></a>
 ## 综述论文
 
 Multiple Object Tracking: A Literature Review [[paper]](https://arxiv.org/pdf/1409.7618.pdf)
@@ -38,8 +39,10 @@ Deep Learning in Video Multi-Object Tracking: A Survey [[paper]](https://arxiv.o
 
 Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tracking [[paper]](<(https://arxiv.org/pdf/1704.02781.pdf)>)
 
+<a id="markdown-算法论文" name="算法论文"></a>
 ## 算法论文
 
+<a id="markdown-2020" name="2020"></a>
 ### **2020**
 
 **MPNTracker|GMOT**: Learning a Neural Solver for Multiple Object Tracking [[code]](https://github.com/dvl-tum/mot_neural_solver)[[paper]](https://arxiv.org/pdf/1912.07515.pdf)
@@ -64,6 +67,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 **GNMOT**: Graph Networks for Multiple Object Tracking [[code]](https://github.com/yinizhizhu/GNMOT)[[paper]](https://link.zhihu.com/?target=https%3A//ieeexplore.ieee.org/stamp/stamp.jsp%3Ftp%3D%26arnumber%3D9093347)
 
+<a id="markdown-2019" name="2019"></a>
 ### **2019**
 
 **Tracktor++**: Tracking without bells and whistles [[code]](https://github.com/phil-bergmann/tracking_wo_bnw)[[paper]](https://arxiv.org/pdf/1903.05625.pdf)
@@ -76,6 +80,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 **FANTrack**: FANTrack: 3D Multi-Object Tracking with Feature Association Network [[code]](https://git.uwaterloo.ca/wise-lab/fantrack)[[paper]](https://arxiv.org/pdf/1905.02843.pdf)
 
+<a id="markdown-2018" name="2018"></a>
 ### **2018**
 
 **DeepCC**: Features for Multi-Target Multi-Camera Tracking and Re-Identification [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ristani_Features_for_Multi-Target_CVPR_2018_paper.pdf)
@@ -94,6 +99,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 **V-IOU**: Extending IOU Based Multi-Object Tracking by Visual Information [[code]](https://github.com/bochinski/iou-tracker/)[[paper]](http://elvera.nue.tu-berlin.de/files/1547Bochinski2018.pdf)
 
+<a id="markdown-2017" name="2017"></a>
 ### **2017**
 
 **DeepSORT**: Simple Online and Realtime Tracking with a Deep Association Metric [[code]](https://github.com/nwojke/deep_sort)[[paper]](https://arxiv.org/pdf/1703.07402.pdf)
@@ -112,16 +118,19 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 **CIWT**: Combined image-and world-space tracking in traffic scenes [[code]](https://github.com/aljosaosep/ciwt)[[paper]](https://arxiv.org/pdf/1809.07357.pdf)
 
+<a id="markdown-2016" name="2016"></a>
 ### **2016**
 
 **SORT**: Simple online and realtime tracking [[code]](https://link.zhihu.com/?target=https%3A//github.com/abewley/sort)[[paper]](https://arxiv.org/pdf/1602.00763.pdf)
 
+<a id="markdown-12-数据集" name="12-数据集"></a>
 ## 1.2. 数据集
 
 以下是监控视角下的数据集
 
 ---
 
+<a id="markdown-121-pets-2009-benchmark-data" name="121-pets-2009-benchmark-data"></a>
 ### 1.2.1. PETS 2009 Benchmark Data
 
 该数据集是一个较老的数据集，发布与 2009 年，是包含不同人群活动的多传感器序列，可以用于估计人群人数和密度，跟踪人群中的个人以及检测流量和人群事件。
@@ -144,10 +153,12 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 ---
 
+<a id="markdown-122-mot-challenge" name="122-mot-challenge"></a>
 ### 1.2.2. MOT Challenge
 
 MOT Challenge 是多目标跟踪方向一个很有影响力的比赛，专注于行人跟踪。其从 2015 年开始提供用于行人跟踪的数据集，至今包含 2D MOT 2015、MOT16、MOT17、MOT20、MOTs。还有用于检测的 MOT17Det 和 MOT20Det，以及用于石斑鱼跟踪的 3D-ZeF20。
 
+<a id="markdown-1221-mot20" name="1221-mot20"></a>
 #### 1.2.2.1. MOT20
 
 用最新的 MOT20 举例，MOT20 包含 4 组训练用的序列以及 4 组测试用的序列。下载地址为[MOT20](https://motchallenge.net/data/MOT20/)。
@@ -173,6 +184,7 @@ MOT 的标签文件分为用于检测的标签和 ground truth 两种，均为 t
 
 第一个数字依旧代表着帧数；第二个数字是该 Bbox 的 ID；后面四个数字是 Bbox 的位置以及大小信息，同上；后一个数字表示的也是置信度，0 代表着 ignored，1 代表着 considered；再后一个数字代表着类别；最后一个数字代表着该目标的可视度（遮挡或者处于图像边界会造成目标部分不可见），值的范围是 0~1，
 
+<a id="markdown-1222-mots" name="1222-mots"></a>
 #### 1.2.2.2. MOTS
 
 MOTS 是德国亚琛工业大学计算机视觉实验室在 2019 年发布的提出多目标跟踪与分割的网络 TrackR-CNN 的文章时一同发布的数据集。MOTS 数据集是基于 KITTI_Tracking 和 MOT_Challenge 重新标注的多目标跟踪与分割数据集，是像素级别的数据集。目前只有行人和车辆两个分类。其 GitHub 地址为[mots_tools](https://github.com/VisualComputingInstitute/mots_tools)。下载地址为[MOTS](https://motchallenge.net/data/MOTS/)。
@@ -204,6 +216,7 @@ txt 文件中的格式为 time_frame，id，class_id，img_height，img_width，
 
 ---
 
+<a id="markdown-123-ua-detrac" name="123-ua-detrac"></a>
 ### 1.2.3. UA-DETRAC
 
 UA-DETRAC 是一个车辆多目标检测和跟踪的数据集。数据集包含了在中国北京和天津 24 个不同地点使用 Cannon EOS 550D 摄像机拍摄的 10 个小时的视频。视频以每秒 25 帧（fps）的速度录制，分辨率为 960×540 像素。UA-DETRAC 数据集中有超过 14 万个帧，并且有 8250 辆车进行了手动注释，因此总共有 121 万个带标签的对象边界框。下载地址为[UA-DETRAC](http://detrac-db.rit.albany.edu/download)。数据集结构如下：
@@ -232,6 +245,7 @@ DETRAC-Train-Annotations-MAT 文件是.mat 格式存储，只包含了目标的�
 
 ---
 
+<a id="markdown-124-wildtrack" name="124-wildtrack"></a>
 ### 1.2.4. WILDTRACK
 
 该数据集采用七个具有重叠视场的高科技静态定位相机获取的，具有高度精确的联合摄像机校准以及视图序列之间的同步。视频的分辨率为 1920×1080 像素，以每秒 60 帧的速度拍摄。
@@ -246,6 +260,7 @@ DETRAC-Train-Annotations-MAT 文件是.mat 格式存储，只包含了目标的�
 
 ---
 
+<a id="markdown-125-nvidia-ai-city-challenge" name="125-nvidia-ai-city-challenge"></a>
 ### 1.2.5. NVIDIA AI CITY Challenge
 
 NVIDIA AI CITY Challenge 是 NVIDIA 公司举办人工智能城市挑战赛，分为四场比赛：运动车辆计数、车辆重识别、多目标车辆跟踪和交通异常检测。每个比赛都提供了专用的数据集，其中可以用于车俩多目标跟踪的是 City-Scale Multi-Camera Vehicle Tracking。
@@ -254,6 +269,7 @@ NVIDIA AI CITY Challenge 是 NVIDIA 公司举办人工智能城市挑战赛，�
 
 ---
 
+<a id="markdown-126-visdrone" name="126-visdrone"></a>
 ### 1.2.6. VisDrone
 
 VisoDrone 是一个规模很大的人工智能视觉领域的竞赛，一般其提供的数据集是由无人机拍摄得到。以 VisDrone2020 为例，VisDrone2020 数据集由中国天津大学机器学习和数据挖掘实验室的 AISKYEYE 团队收集，由 265228 帧和包含 10209 静态图像的 400 个视频片段组成，包含 260 万个手动注释的 Bbox。这些视频片段由各种安装在无人机上的摄像机捕获，涵盖范围广泛，比如位置（取自中国数千个相距数千公里的 14 个不同城市）、环境（城市和乡村）、物体（行人、车辆、自行车等）和密度（稀疏和拥挤的场景）。
@@ -267,6 +283,7 @@ VisoDrone 是一个规模很大的人工智能视觉领域的竞赛，一般其�
 
 ---
 
+<a id="markdown-127-jta-dataset" name="127-jta-dataset"></a>
 ### 1.2.7. JTA Dataset
 
 JTA(Joint Track Auto)数据集是通过利用高度写实视频游戏创造的城市环境下的用于行人姿态估计和跟踪的大型数据集。数据集为 512 个 30 秒长的高清视频序列（256 为训练集，256 为测试集），fps 为 30。在 ECCV2018 的论文 Learning to Detect and Track Visible and Occluded Body Joints in a Virtual World 中提出。获取方法在[JTA](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=25)，需要发送邮件获取 JTA-key 才能下载。
@@ -289,6 +306,7 @@ JTA(Joint Track Auto)数据集是通过利用高度写实视频游戏创造的�
 
 ---
 
+<a id="markdown-128-path-track" name="128-path-track"></a>
 ### 1.2.8. Path Track
 
 Path Track 数据集在 ICCV2017 的论文 PathTrack: Fast Trajectory Annotation with Path Supervision 中被提出，论文中还提出了一个新的框架来队轨迹进行注释。数据集包含 720 个视频序列，有着超过 15000 个人的轨迹。
@@ -296,6 +314,7 @@ Path Track 数据集在 ICCV2017 的论文 PathTrack: Fast Trajectory Annotation
 ![Path Track statistics](assets/Path%20Track%20statistics.png)
 上图是 Path Track 数据集中的数据统计，图 a 是相机的移动情况，图 b 是场景的分类及统计，图 c 是多方面的数据统计。Path Track 的下载地址为[Path Track](https://www.trace.ethz.ch/publications/2017/pathtrack/index.html)。
 
+<a id="markdown-129-tao" name="129-tao"></a>
 ### 1.2.9. TAO
 
 CMU 等在今年提出了一个新的大型 MOT 数据集，TAO（Tracking Any Objects）。论文地址为[TAO: A Large-Scale Benchmark for Tracking Any Object](https://arxiv.org/abs/2005.10356)。目前，在多目标跟踪的领域中，类别大多只是行人和车辆。忽略了真实世界中的其他物体。众所周知，COCO 等类别丰富的大规模数据集极大的促进了目标检测领域的发展，故此，来自 CMU 等单位的学者们推出了一个类似 COCO 的类别多样化的 MOT 数据集（TAO），用于跟踪任何物体，以期为多目标跟踪领域的发展做出一些贡献。<br>数据集包含 2907 段高分辨率的视频序列，在各种环境中进行捕获，平均时长为半分钟。
@@ -309,6 +328,7 @@ CMU 等在今年提出了一个新的大型 MOT 数据集，TAO（Tracking Any O
 
 ---
 
+<a id="markdown-1210-kitti-tracking" name="1210-kitti-tracking"></a>
 ### 1.2.10. KITTI-Tracking
 
 KITTI 数据集由德国卡尔斯鲁厄理工学院和丰田美国技术研究院联合创办，是目前国际上最大的自动驾驶场景下的计算机视觉算法评测数据集。该数据集用于评测立体图像(stereo)，光流(optical flow)，视觉测距(visual odometry)，3D 物体检测(object detection)和 3D 跟踪(tracking)等计算机视觉技术在车载环境下的性能。KITTI 包含市区、乡村和高速公路等场景采集的真实图像数据，每张图像中最多达 15 辆车和 30 个行人，还有各种程度的遮挡与截断。整个数据集由 389 对立体图像和光流图，39.2km 视觉测距序列以及超过 200000 的 3D 标注物体的图像组成。总体上看，原始数据集被分类为’Road’, ’City’, ’Residential’, ’Campus’ 和 ’Person’。
@@ -317,10 +337,12 @@ KITTI 数据集由德国卡尔斯鲁厄理工学院和丰田美国技术研究�
 
 ---
 
+<a id="markdown-1211-apolloscape" name="1211-apolloscape"></a>
 ### 1.2.11. APOLLOSCAPE
 
 APOLLOSCAPE 是百度公司提供的自动驾驶数据集，包括具有高分辨率图像和每像素标注的 RGB 视频，具有语义分割的测量级密集 3D 点，立体视频和全景图像。数据集分为场景解析、车道分割、轨迹、目标检测/跟踪等等若干个子数据集。
 
+<a id="markdown-12111-apollo-dectiontracking" name="12111-apollo-dectiontracking"></a>
 #### 1.2.11.1 APOLLO Dection/Tracking
 
 可用于多目标跟踪的是检测/跟踪子数据集，它是在各种照明条件和交通密度下于中国北京收集的。更具体地说，它包含了非常复杂的交通流，其中混杂着车辆，骑自行车的人和行人。其中大约 53 分钟的视频序列用于训练，50 分钟的视频序列用于测试。其下载地址为：[APOLLOTracking](http://apolloscape.auto/tracking.html)。数据集文件夹结构如下：
@@ -338,6 +360,7 @@ APOLLOSCAPE 是百度公司提供的自动驾驶数据集，包括具有高分�
 
 <br>官网还提供了评估所用的脚本[metric](https://github.com/sibozhang/dataset-api/tree/master/3d_detection_tracking)。另有一个名为[APOLLO Trajectory](http://apolloscape.auto/trajectory.html)的用于轨迹预测的子数据集，视频序列与上述子数据集相同，只是在标注信息上面略有不同，也可以用于 MOT。
 
+<a id="markdown-12112-apollo-mots" name="12112-apollo-mots"></a>
 #### 1.2.11.2 APOLLO MOTS
 
 收录于 ECCV2020 的论文 Segment as Points for Efficient
@@ -345,6 +368,8 @@ Online Multi-Object Tracking 中发布了一个新的数据集，其基于已公
 ![APOLLO MOTS](assets/APOLLO%20MOTS.png)
 <br>不过该数据集尚未公开。
 
+<a id="markdown-13-指标" name="13-指标"></a>
 ## 1.3. 指标
 
+<a id="markdown-14-基准结果" name="14-基准结果"></a>
 ## 1.4. 基准结果
