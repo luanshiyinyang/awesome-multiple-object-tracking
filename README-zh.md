@@ -38,7 +38,7 @@ Multiple Object Tracking: A Literature Review [[paper]](https://arxiv.org/pdf/14
 
 Deep Learning in Video Multi-Object Tracking: A Survey [[paper]](https://arxiv.org/pdf/1907.12740.pdf)
 
-Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tracking [[paper]](<(https://arxiv.org/pdf/1704.02781.pdf)>)
+Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tracking [[paper]](https://arxiv.org/pdf/1704.02781.pdf)
 
 <a id="markdown-算法论文" name="算法论文"></a>
 ## 算法论文
