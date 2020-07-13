@@ -4,7 +4,6 @@
 
 <!-- TOC -->
 
-- [Awesome Multiple object Tracking: ![Awesome](https://github.com/sindresorhus/awesome)](#awesome-multiple-object-tracking-img-srchttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvg-altawesome)
   - [Review papers](#review-papers)
   - [Algorithm papers](#algorithm-papers)
     - [**2020**](#2020)
