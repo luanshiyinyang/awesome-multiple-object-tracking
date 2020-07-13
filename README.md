@@ -2,9 +2,12 @@
 
 > A curated list of multi-object-tracking and related area resources. It only contains online methods.
 
+<a id="markdown-contents" name="contents"></a>
 ## Contents
+
 <!-- TOC -->
 
+  - [Contents](#contents)
   - [Review papers](#review-papers)
   - [Algorithm papers](#algorithm-papers)
     - [**2020**](#2020)
@@ -17,6 +20,7 @@
     - [Driving Scenarios](#driving-scenarios)
   - [Metrics](#metrics)
   - [Benchmark Results](#benchmark-results)
+    - [MOT16](#mot16)
 
 <!-- /TOC -->
 
@@ -30,8 +34,10 @@ Deep Learning in Video Multi-Object Tracking: A Survey [[paper]](https://arxiv.o
 
 Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tracking [[paper]](https://arxiv.org/pdf/1704.02781.pdf)
 
+
 <a id="markdown-algorithm-papers" name="algorithm-papers"></a>
 ## Algorithm papers
+
 
 <a id="markdown-2020" name="2020"></a>
 ### **2020**
@@ -58,6 +64,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 **GNMOT**: Graph Networks for Multiple Object Tracking [[code]](https://github.com/yinizhizhu/GNMOT)[[paper]](https://link.zhihu.com/?target=https%3A//ieeexplore.ieee.org/stamp/stamp.jsp%3Ftp%3D%26arnumber%3D9093347)
 
+
 <a id="markdown-2019" name="2019"></a>
 ### **2019**
 
@@ -70,6 +77,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 **MOTS**: MOTS: Multi-Object Tracking and Segmentation[[paper]](https://arxiv.org/pdf/1902.03604.pdf)
 
 **FANTrack**: FANTrack: 3D Multi-Object Tracking with Feature Association Network [[code]](https://git.uwaterloo.ca/wise-lab/fantrack)[[paper]](https://arxiv.org/pdf/1905.02843.pdf)
+
 
 <a id="markdown-2018" name="2018"></a>
 ### **2018**
@@ -90,6 +98,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 **V-IOU**: Extending IOU Based Multi-Object Tracking by Visual Information [[code]](https://github.com/bochinski/iou-tracker/)[[paper]](http://elvera.nue.tu-berlin.de/files/1547Bochinski2018.pdf)
 
+
 <a id="markdown-2017" name="2017"></a>
 ### **2017**
 
@@ -109,38 +118,70 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 **CIWT**: Combined image-and world-space tracking in traffic scenes [[code]](https://github.com/aljosaosep/ciwt)[[paper]](https://arxiv.org/pdf/1809.07357.pdf)
 
+
 <a id="markdown-2016" name="2016"></a>
 ### **2016**
 
 **SORT**: Simple online and realtime tracking [[code]](https://link.zhihu.com/?target=https%3A//github.com/abewley/sort)[[paper]](https://arxiv.org/pdf/1602.00763.pdf)
 
 
-
 <a id="markdown-datasets" name="datasets"></a>
 ## Datasets
+
+
 <a id="markdown-surveillance-scenarios" name="surveillance-scenarios"></a>
 ### Surveillance Scenarios
-PETS 2009 Benchmark Data<br>
-MOT Challenge<br>
-UA-DETRAC<br>
-WILDTRACK<br>
-NVIDIA AI CITY Challenge<br>
-VisDrone<br>
-JTA Dataset<br>
-Path Track<br>
-TAO<br>
+
+PETS 2009 Benchmark Data [[url]](http://www.cvg.reading.ac.uk/PETS2009/a.html)<br>
+MOT Challenge [[url]](https://motchallenge.net/)<br>
+UA-DETRAC [[url]](http://detrac-db.rit.albany.edu/download)<br>
+WILDTRACK [[url]](https://www.epfl.ch/labs/cvlab/data/data-wildtrack/)<br>
+NVIDIA AI CITY Challenge [[url]](https://www.aicitychallenge.org/2020-data-and-evaluation/)<br>
+VisDrone [[url]](https://github.com/VisDrone)<br>
+JTA Dataset [[url]](https://github.com/fabbrimatteo/JTA-Dataset)<br>
+Path Track [[url]](https://www.trace.ethz.ch/publications/2017/pathtrack/index.html)<br>
+TAO [[url]](https://github.com/TAO-Dataset/tao)<br>
+
 
 <a id="markdown-driving-scenarios" name="driving-scenarios"></a>
 ### Driving Scenarios
-KITTI-Tracking<br>
-APOLLOSCAPE<br>
+
+KITTI-Tracking [[url]](http://www.cvlibs.net/datasets/kitti/eval_tracking.php)<br>
+APOLLOSCAPE [[url]](http://apolloscape.auto/tracking.html)<br>
 
 
 <a id="markdown-metrics" name="metrics"></a>
 ## Metrics
-refer to review paper
+
+$$ Accuracy = {{TP + TN} \over {TP + TN + FP + FN}} $$
+$$ Recall = {TP \over {TP + FN}} = TPR$$
+$$ Precision = {TP \over {TP + FP}} $$
+$$ MA = {FN \over {TP + FN}} $$
+$$ FA = {FP \over {TP + FP}} $$
+$$MOTA = 1 - {\sum_t(FN + FP + IDs)\over \sum_t gt}$$
+$$ MOTP = {\sum_{t,i}d_t^i \over \sum_tc_t }$$
+$$ IDP = {IDTP \over {IDTP + IDFP}} $$
+$$ IDR = {IDTP \over {IDTP + IDFN}} $$
+$$ IDF1 = {2 \over {{1 \over IDP} + {1 \over IDR}}} = {2IDTP \over {2IDTP + IDFP + IDFN}} $$
+
+[Evaluation code](https://github.com/cheind/py-motmetrics)
 
 <a id="markdown-benchmark-results" name="benchmark-results"></a>
 ## Benchmark Results
 
-TODO TODO
+<a id="markdown-mot16" name="mot16"></a>
+### MOT16
+
+| Rank |      Model       | MOTA |                                                    Paper                                                    | Year |
+| :--: | :--------------: | :--: | :---------------------------------------------------------------------------------------------------------: | :--: |
+|  1   |     FairMOT      | 68.7 |                                 A Simple Baseline for Multi-Object Tracking                                 | 2020 |
+|  2   |       JDE        | 64.4 |                                   Towards Real-Time Multi-Object Tracking                                   | 2019 |
+|  3   |      Lif_T       | 61.3 |                     Lifted Disjoint Paths with Application in Multiple Object Tracking                      | 2020 |
+|  4   |     MPNTrack     | 58.6 |                            Learning a Neural Solver for Multiple Object Tracking                            | 2020 |
+|  5   | DeepMOT-Tracktor | 54.8 |                                 How To Train Your Deep Multi-Object Tracker                                 | 2019 |
+|  6   |       TNT        | 49.2 |                      Exploit the Connectivity: Multi-Object Tracking with TrackletNet                       | 2018 |
+|  7   |       GCRA       | 48.2 | Trajectory Factory: Tracklet Cleaving and Re-connection by Deep Siamese Bi-GRU for Multiple Object Tracking | 2018 |
+|  8   |       FWT        | 47.8 |                      Fusion of Head and Full-Body Detectors for Multi-Object Tracking                       | 2017 |
+|  9   |      MOTDT       | 47.6 |   Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification   | 2018 |
+|  10  |       NOMT       | 46.4 |                   Near-Online Multi-target Tracking with Aggregated Local Flow Descriptor                   | 2015 |
+|  11  |      DMMOT       | 46.1 |                     Online Multi-Object Tracking with Dual Matching Attention Networks                      | 2019 |

@@ -1,8 +1,9 @@
-# 多目标跟踪
+# 多目标跟踪: [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+> 归纳整理了比较重要的多目标跟踪论文和资源。
 
 <!-- TOC -->
 
-- [多目标跟踪](#多目标跟踪)
   - [综述论文](#综述论文)
   - [算法论文](#算法论文)
     - [**2020**](#2020)
@@ -34,6 +35,7 @@
 <!-- /TOC -->
 
 <a id="markdown-综述论文" name="综述论文"></a>
+
 ## 综述论文
 
 Multiple Object Tracking: A Literature Review [[paper]](https://arxiv.org/pdf/1409.7618.pdf)
@@ -43,9 +45,11 @@ Deep Learning in Video Multi-Object Tracking: A Survey [[paper]](https://arxiv.o
 Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tracking [[paper]](https://arxiv.org/pdf/1704.02781.pdf)
 
 <a id="markdown-算法论文" name="算法论文"></a>
+
 ## 算法论文
 
 <a id="markdown-2020" name="2020"></a>
+
 ### **2020**
 
 **MPNTracker|GMOT**: Learning a Neural Solver for Multiple Object Tracking [[code]](https://github.com/dvl-tum/mot_neural_solver)[[paper]](https://arxiv.org/pdf/1912.07515.pdf)
@@ -71,6 +75,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 **GNMOT**: Graph Networks for Multiple Object Tracking [[code]](https://github.com/yinizhizhu/GNMOT)[[paper]](https://link.zhihu.com/?target=https%3A//ieeexplore.ieee.org/stamp/stamp.jsp%3Ftp%3D%26arnumber%3D9093347)
 
 <a id="markdown-2019" name="2019"></a>
+
 ### **2019**
 
 **Tracktor++**: Tracking without bells and whistles [[code]](https://github.com/phil-bergmann/tracking_wo_bnw)[[paper]](https://arxiv.org/pdf/1903.05625.pdf)
@@ -84,6 +89,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 **FANTrack**: FANTrack: 3D Multi-Object Tracking with Feature Association Network [[code]](https://git.uwaterloo.ca/wise-lab/fantrack)[[paper]](https://arxiv.org/pdf/1905.02843.pdf)
 
 <a id="markdown-2018" name="2018"></a>
+
 ### **2018**
 
 **DeepCC**: Features for Multi-Target Multi-Camera Tracking and Re-Identification [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ristani_Features_for_Multi-Target_CVPR_2018_paper.pdf)
@@ -103,6 +109,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 **V-IOU**: Extending IOU Based Multi-Object Tracking by Visual Information [[code]](https://github.com/bochinski/iou-tracker/)[[paper]](http://elvera.nue.tu-berlin.de/files/1547Bochinski2018.pdf)
 
 <a id="markdown-2017" name="2017"></a>
+
 ### **2017**
 
 **DeepSORT**: Simple Online and Realtime Tracking with a Deep Association Metric [[code]](https://github.com/nwojke/deep_sort)[[paper]](https://arxiv.org/pdf/1703.07402.pdf)
@@ -122,11 +129,13 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 **CIWT**: Combined image-and world-space tracking in traffic scenes [[code]](https://github.com/aljosaosep/ciwt)[[paper]](https://arxiv.org/pdf/1809.07357.pdf)
 
 <a id="markdown-2016" name="2016"></a>
+
 ### **2016**
 
 **SORT**: Simple online and realtime tracking [[code]](https://link.zhihu.com/?target=https%3A//github.com/abewley/sort)[[paper]](https://arxiv.org/pdf/1602.00763.pdf)
 
 <a id="markdown-数据集" name="数据集"></a>
+
 ## 数据集
 
 以下是监控视角下的数据集
@@ -174,18 +183,20 @@ MOT 的标签文件分为用于检测的标签和 ground truth 两种，均为 t
 <br>`<frame>, <id>, <bb_left>, <bb_top>, <bb_width>, <bb_height>, <conf>, <x>, <y>, <z>`
 <br>例如：<br>
 
-1. 1,-1,757,692,96,209,1,-1,-1,-1
-2. 1,-1,667,682,100,222,1,-1,-1,-1
-3. 1,-1,343,818,127,258,1,-1,-1,-1
+```
+1,-1,757,692,96,209,1,-1,-1,-1
+1,-1,667,682,100,222,1,-1,-1,-1
+1,-1,343,818,127,258,1,-1,-1,-1
+```
 
 第一个数字是代表帧数；第二个数字-1，意味着没有分配 ID；随后的两个数字分别是 Bbox 的左上角点的坐标；再接着的两个数字是 Bbox 的 w 和 h；后一个数字表示的是置信度；最后三个-1 对检测文件来说没有意义。<br>ground truth 的标注格式为：
 <br>`<frame>, <id>, <bb_left>, <bb_top>, <bb_width>, <bb_height>, <0/1>, <cls>, <vis>`
 <br>例如：<br>
 
 ```
-1. 1,1,199,813,140,268,1,1,0.83643
-2. 2,1,201,812,140,268,1,1,0.84015
-3. 3,1,203,812,140,268,1,1,0.84015
+1,1,199,813,140,268,1,1,0.83643
+2,1,201,812,140,268,1,1,0.84015
+3,1,203,812,140,268,1,1,0.84015
 ```
 
 第一个数字依旧代表着帧数；第二个数字是该 Bbox 的 ID；后面四个数字是 Bbox 的位置以及大小信息，同上；后一个数字表示的也是置信度，0 代表着 ignored，1 代表着 considered；再后一个数字代表着类别；最后一个数字代表着该目标的可视度（遮挡或者处于图像边界会造成目标部分不可见），值的范围是 0~1，
@@ -389,70 +400,81 @@ Online Multi-Object Tracking 中发布了一个新的数据集，其基于已公
 <a id="markdown-指标" name="指标"></a>
 
 ## 指标
+
 多目标跟踪（MOT）方法的评价指标是至关重要的，因为它们公平地定量地比较了不同算法的优劣。
 
-首先，P是Positive，N是Negative，P和N表示模型的判断结果；T是True，F是False，T和F表示模型的判断结果是否正确。所以可以得到：
-+ FP：假正例
-+ FN：假负例
-+ TP：真正例
-+ TN：真负例
+首先，P 是 Positive，N 是 Negative，P 和 N 表示模型的判断结果；T 是 True，F 是 False，T 和 F 表示模型的判断结果是否正确。所以可以得到：
 
-<br>所以，Accuracy、Recall和Precision分别表示为：
-+ $$ Accuracy = {{TP + TN} \over {TP + TN + FP + FN}} $$
-+ $$ Recall = {TP \over {TP + FN}} = TPR$$
-+ $$ Precision = {TP \over {TP + FP}} $$
-+ $$ MA = {FN \over {TP + FN}} $$
-+ $$ FA = {FP \over {TP + FP}} $$
-三个指标中最直接的便是准确率（Accuracy），即模型判断正确的数据占总数据的比例。召回率（Recall）是针对数据集中的所有正例而言,即模型正确判断出的正例占数据集中所有正例的比例，召回率与真正类率（TPR，True Positive Rate）是相同的。精确率（Precision）是针对模型判断出的所有正例而言,即真正例占的比率，精确率也叫查准率,以目标检测为例,精确率高表示模型检测出的目标中大部分确实是目标,只有少量不是目标的对象被当成目标。MA（missing alarm）反映了有多少个正例被漏判了。FA（false alarm）反映了被判断为正例的样本中，有多少其实是负例。<br>在一定程度上来说，Precision和Recall是“对立”的，当IoU（Intersection of Union）的判别阈值增大时（IoU更大的才被判别为正例），Precision会增大，而Recall会减小；当IoU阈值减小时，Precision会减小，而Recall会增大。也就是说，不同的Recall值对应着不同的Precision值，以Recall值为横坐标，以Precision为纵坐标，把取不同阈值时的结果画到图上，就得到了下图中的PR曲线。
-![P-R](assets/P-R%20Curve.png)
-计算不同Recall值下的Precision值的平均值，便可以得到AP（Average Precision）。AP衡量的是模型在某一类别上的好坏，而mAP衡量的是模型在所有类别上的好坏，即求出每个类别的AP，再求其平均值，变得到了mAP。
-<br><br>在MOT中，IDs（ID switch）和FM（fragmentation）也是很重要的指标：
+- FP：假正例
+- FN：假负例
+- TP：真正例
+- TN：真负例
 
-+ IDs：每一次跟踪的GT（ground truth）目标ID发生一次错误的变化记为一次ID switch，其次数即为IDs
-+ FM：每一个跟踪的GT轨迹发生一次断开并恢复称为一次fragmentation，其次数即为FM
+<br>所以，Accuracy、Recall 和 Precision 分别表示为：
+$$ Accuracy = {{TP + TN} \over {TP + TN + FP + FN}} $$
+$$ Recall = {TP \over {TP + FN}} = TPR$$
+$$ Precision = {TP \over {TP + FP}} $$
+$$ MA = {FN \over {TP + FN}} $$
+$$ FA = {FP \over {TP + FP}} $$
+三个指标中最直接的便是准确率（Accuracy），即模型判断正确的数据占总数据的比例。召回率（Recall）是针对数据集中的所有正例而言,即模型正确判断出的正例占数据集中所有正例的比例，召回率与真正类率（TPR，True Positive Rate）是相同的。精确率（Precision）是针对模型判断出的所有正例而言,即真正例占的比率，精确率也叫查准率,以目标检测为例,精确率高表示模型检测出的目标中大部分确实是目标,只有少量不是目标的对象被当成目标。MA（missing alarm）反映了有多少个正例被漏判了。FA（false alarm）反映了被判断为正例的样本中，有多少其实是负例。<br>在一定程度上来说，Precision 和 Recall 是“对立”的，当 IoU（Intersection of Union）的判别阈值增大时（IoU 更大的才被判别为正例），Precision 会增大，而 Recall 会减小；当 IoU 阈值减小时，Precision 会减小，而 Recall 会增大。也就是说，不同的 Recall 值对应着不同的 Precision 值，以 Recall 值为横坐标，以 Precision 为纵坐标，把取不同阈值时的结果画到图上，就得到了下图中的 PR 曲线。
+![P-R](./assets/P-R%20Curve.png)
+计算不同 Recall 值下的 Precision 值的平均值，便可以得到 AP（Average Precision）。AP 衡量的是模型在某一类别上的好坏，而 mAP 衡量的是模型在所有类别上的好坏，即求出每个类别的 AP，再求其平均值，变得到了 mAP。
+<br><br>在 MOT 中，IDs（ID switch）和 FM（fragmentation）也是很重要的指标：
 
-从上述的几个指标可以计算出更为精确的评价MOT模型的指标MOTA（Multiple Object Tracking Accuracy）：
-+ $$MOTA = 1 - {\sum_t(FN + FP + IDs)\over \sum_t gt}$$
+- IDs：每一次跟踪的 GT（ground truth）目标 ID 发生一次错误的变化记为一次 ID switch，其次数即为 IDs
+- FM：每一个跟踪的 GT 轨迹发生一次断开并恢复称为一次 fragmentation，其次数即为 FM
 
-这里的t代表着帧数t，MOTA的值域为$(-\infty,1]$。值得注意的是MOTA是可能为负值的，因为算法发生的错误是可能多于ground truth中的Bbox数量。另一个指标MOTP（Multiple Object Tracking Precision）有时也可以取代MOTA，它代表着MOT的精确度，体现在确定目标位置上的精确度，用于衡量目标位置确定的精确程度：
-+ $$ MOTP = {\sum_{t,i}d_t^i \over \sum_tc_t }$$
+从上述的几个指标可以计算出更为精确的评价 MOT 模型的指标 MOTA（Multiple Object Tracking Accuracy）：
+$$MOTA = 1 - {\sum_t(FN + FP + IDs)\over \sum_t gt}$$
 
-其中，$c_t$表示第t帧中模型预测与ground truth的匹配的个数，$d_t^i$表示第t帧中目标i与模型预测出的位置的欧氏距离，即匹配误差。<br><br>MOTA和MOTP共同衡量着算法连续跟踪目标的能力。而对于目标ID方面，除了最基本的IDs，还有其他几个指标，比如IDP（Identification precision)、IDR（Identification recall）和IDF1（Identification F1）也很重要：
-+ $$ IDP = {IDTP \over {IDTP + IDFP}} $$
-+ $$ IDR = {IDTP \over {IDTP + IDFN}} $$
-+ $$ IDF1 = {2 \over {{1 \over IDP} + {1 \over IDR}}} = {2IDTP \over {2IDTP + IDFP + IDFN}} $$
+这里的 t 代表着帧数 t，MOTA 的值域为$(-\infty,1]$。值得注意的是 MOTA 是可能为负值的，因为算法发生的错误是可能多于 ground truth 中的 Bbox 数量。另一个指标 MOTP（Multiple Object Tracking Precision）有时也可以取代 MOTA，它代表着 MOT 的精确度，体现在确定目标位置上的精确度，用于衡量目标位置确定的精确程度：
+$$ MOTP = {\sum_{t,i}d_t^i \over \sum_tc_t }$$
 
-顾名思义，上述三个指标即为目标ID方面的精确率、召回率和F1指标。下面提到的三个指标，是用来对模型预测的目标整段轨迹进行衡量的。
-+ MT：跟踪器预测出来的轨迹占ground truth的80%以上的比例
-+ ML：跟踪器预测出来的轨迹占ground truth的20%以下的比例
-+ PT：$PT = 1.0 - MT - ML$
+其中，$c_t$表示第$t$帧中模型预测与 ground truth 的匹配的个数，$d_t^i$表示第 t 帧中目标 i 与模型预测出的位置的欧氏距离，即匹配误差。<br><br>MOTA 和 MOTP 共同衡量着算法连续跟踪目标的能力。而对于目标 ID 方面，除了最基本的 IDs，还有其他几个指标，比如 IDP（Identification precision)、IDR（Identification recall）和 IDF1（Identification F1）也很重要：
+$$ IDP = {IDTP \over {IDTP + IDFP}} $$
+$$ IDR = {IDTP \over {IDTP + IDFN}} $$
+$$ IDF1 = {2 \over {{1 \over IDP} + {1 \over IDR}}} = {2IDTP \over {2IDTP + IDFP + IDFN}} $$
+
+顾名思义，上述三个指标即为目标 ID 方面的精确率、召回率和 F1 指标。下面提到的三个指标，是用来对模型预测的目标整段轨迹进行衡量的。
+
+- MT：跟踪器预测出来的轨迹占 ground truth 的 80%以上的比例
+- ML：跟踪器预测出来的轨迹占 ground truth 的 20%以下的比例
+- PT：$PT = 1.0 - MT - ML$
 
 下面再列举一些并不常用的指标：
-+ MODA：Multi-Object Detection Accuracy
-+ MODP：Multi-Object Detection Precision
-+ FPPI：$FPPI = {FP \over N}$,其中N代表着总帧数
-+ TDE：跟踪器预测结果与ground truth中的注释的距离（用于计算MOTP）
-+ OSPA：预测结果与ground truth之间的基数误差和空间距离
-+ RS：较短遮挡后正确恢复的轨迹所占的比例
-+ RL：长时间遮挡后正确恢复的轨迹所占的比例
+
+- MODA：Multi-Object Detection Accuracy
+- MODP：Multi-Object Detection Precision
+- FPPI：$FPPI = {FP \over N}$,其中 N 代表着总帧数
+- TDE：跟踪器预测结果与 ground truth 中的注释的距离（用于计算 MOTP）
+- OSPA：预测结果与 ground truth 之间的基数误差和空间距离
+- RS：较短遮挡后正确恢复的轨迹所占的比例
+- RL：长时间遮挡后正确恢复的轨迹所占的比例
+
+[Evaluation code](https://github.com/cheind/py-motmetrics)
 
 <a id="markdown-基准结果" name="基准结果"></a>
 
 ## 基准结果
 
+<a id="markdown-mot16" name="mot16"></a>
+
 ### MOT16
-| 排名| 模型  | MOTA | 论文 | 年份 |
-| :---: | :---: | :---: | :---: | :---: | 
-| 1 | FairMOT | 68.7 | A Simple Baseline for Multi-Object Tracking | 2020 |
-| 2 | JDE | 64.4 | Towards Real-Time Multi-Object Tracking | 2019 |
-|3|Lif_T|61.3|Lifted Disjoint Paths with Application in Multiple Object Tracking|2020|
-|4|MPNTrack|58.6|Learning a Neural Solver for Multiple Object Tracking|2020|
-|5|DeepMOT-Tracktor|54.8|How To Train Your Deep Multi-Object Tracker|2019|
-|6|TNT|49.2|Exploit the Connectivity: Multi-Object Tracking with TrackletNet|2018|
-|7|GCRA|48.2|Trajectory Factory: Tracklet Cleaving and Re-connection by Deep Siamese Bi-GRU for Multiple Object Tracking|2018|
-|8|	FWT|47.8	|Fusion of Head and Full-Body Detectors for Multi-Object Tracking|2017|
-|9|	MOTDT|47.6|Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification|2018|
-|10|NOMT|46.4|Near-Online Multi-target Tracking with Aggregated Local Flow Descriptor|2015|
-|11|DMMOT|46.1|Online Multi-Object Tracking with Dual Matching Attention Networks|2019|
+
+| 排名 |       模型       | MOTA |                                                    论文                                                     | 年份 |
+| :--: | :--------------: | :--: | :---------------------------------------------------------------------------------------------------------: | :--: |
+|  1   |     FairMOT      | 68.7 |                                 A Simple Baseline for Multi-Object Tracking                                 | 2020 |
+|  2   |       JDE        | 64.4 |                                   Towards Real-Time Multi-Object Tracking                                   | 2019 |
+|  3   |      Lif_T       | 61.3 |                     Lifted Disjoint Paths with Application in Multiple Object Tracking                      | 2020 |
+|  4   |     MPNTrack     | 58.6 |                            Learning a Neural Solver for Multiple Object Tracking                            | 2020 |
+|  5   | DeepMOT-Tracktor | 54.8 |                                 How To Train Your Deep Multi-Object Tracker                                 | 2019 |
+|  6   |       TNT        | 49.2 |                      Exploit the Connectivity: Multi-Object Tracking with TrackletNet                       | 2018 |
+|  7   |       GCRA       | 48.2 | Trajectory Factory: Tracklet Cleaving and Re-connection by Deep Siamese Bi-GRU for Multiple Object Tracking | 2018 |
+|  8   |       FWT        | 47.8 |                      Fusion of Head and Full-Body Detectors for Multi-Object Tracking                       | 2017 |
+|  9   |      MOTDT       | 47.6 |   Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification   | 2018 |
+|  10  |       NOMT       | 46.4 |                   Near-Online Multi-target Tracking with Aggregated Local Flow Descriptor                   | 2015 |
+|  11  |      DMMOT       | 46.1 |                     Online Multi-Object Tracking with Dual Matching Attention Networks                      | 2019 |
+
+<a id="markdown-mot17" name="mot17"></a>
 
 ### MOT17
