@@ -4,6 +4,7 @@
 
 <!-- TOC -->
 
+- [多目标跟踪: ![Awesome](https://github.com/sindresorhus/awesome)](#多目标跟踪-img-srchttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvg-altawesome)
   - [综述论文](#综述论文)
   - [算法论文](#算法论文)
     - [**2020**](#2020)
@@ -456,6 +457,7 @@ $$ IDF1 = {2 \over {{1 \over IDP} + {1 \over IDR}}} = {2IDTP \over {2IDTP + IDFP
 <a id="markdown-基准结果" name="基准结果"></a>
 
 ## 基准结果
+MOT领域大部分Benchmark都可以在MOT Challenge官网找到，下文的表格整理自MOT Challenge官网，只包含发表论文的成果，大多数为online方法。
 
 <a id="markdown-mot16" name="mot16"></a>
 
@@ -478,3 +480,22 @@ $$ IDF1 = {2 \over {{1 \over IDP} + {1 \over IDR}}} = {2IDTP \over {2IDTP + IDFP
 <a id="markdown-mot17" name="mot17"></a>
 
 ### MOT17
+
+| 排名 |       模型       | MOTA |                                                    论文                                                     | 年份 |
+| :--: | :--------------: | :--: | :---------------------------------------------------------------------------------------------------------: | :--: |
+|  1   |     FairMOT      | 67.5 |                                 A Simple Baseline for Multi-Object Tracking                                 | 2020 |
+|  2   |       Lif_T        | 60.5 |                                   Lifted Disjoint Paths with Application in Multiple Object Tracking                                   | 2020 |
+|3|MPNTrack| 58.8 | Learning a Neural Solver for Multiple Object Tracking | 2020|
+|4| DeepMOT | 53.7|How To Train Your Deep Multi-Object Tracker|2019|
+|5| JBNOT|52.6| Multiple People Tracking using Body and Joint Detections|2019|
+|6|TNT|51.9|Exploit the Connectivity: Multi-Object Tracking with TrackletNet|2018|
+|7|	FWT|51.3|Fusion of Head and Full-Body Detectors for Multi-Object Tracking|2017|
+|8|MOTDT17|50.9|Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification|2018|
+
+### MOT20
+
+
+| 排名 |       模型       | MOTA |                                                    论文                                                     | 年份 |
+| :--: | :--------------: | :--: | :---------------------------------------------------------------------------------------------------------: | :--: |
+|  1   |     FairMOT      | 61.8 |                                 A Simple Baseline for Multi-Object Tracking                                 | 2020 |
+|2| UnsupTrack| 53.6 |Simple Unsupervised Multi-Object Tracking|2020|
