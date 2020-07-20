@@ -452,6 +452,19 @@ $$ IDF1 = {2 \over {{1 \over IDP} + {1 \over IDR}}} = {2IDTP \over {2IDTP + IDFP
 - RS：较短遮挡后正确恢复的轨迹所占的比例
 - RL：长时间遮挡后正确恢复的轨迹所占的比例
 
+另：清华大学和旷视在CVPR2020发表了一篇论文[SQE: a Self Quality Evaluation Metric for Parameters Optimization in Multi-Object Tracking](https://arxiv.org/abs/2004.07472v1)，提出了一种新的MOT评判指标SQE。
+$$ SQE = {{n * L} \over {n + k_1 * L + k_2 * (fp + dif + sim)}} $$
+其中，n为轨迹的数量，L为轨迹的平均长度。
+算法的主要流程如图：
+![SQE](assets/SQE算法流程.jpg)
+主要分为4个步骤：
+1. 把轨迹短、标准差大的轨迹标为虚警，记作fp进行累加；
+2. 对于其他轨迹，使用一个两类高斯混合模型拟合类内距离，并根据均值差判断是否属于低质量轨迹。如果均值差超过特定阈值，则认为该轨迹包含不止一个目标，记作差别错误dif进行累加；
+3. 类似地处理任意两条非虚警轨迹的类间距离。如果均值差较大，则认为匹配了相同的目标，记作相似错误sim进行累加；
+4. 同时也考虑其他内部特征，比如轨迹假设的数量n与平均长度L。
+
+$k_1$用来适应跟踪对象的移动速度和密度，比如在街景上的行人跟踪中，$k_1$取1比较合适。$k_2$用来调节n、L以及error之间的比例。
+
 [Evaluation code](https://github.com/cheind/py-motmetrics)
 
 <a id="markdown-基准结果" name="基准结果"></a>
