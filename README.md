@@ -152,16 +152,18 @@ APOLLOSCAPE [[url]](http://apolloscape.auto/tracking.html)<br>
 <a id="markdown-metrics" name="metrics"></a>
 ## Metrics
 
-$$ Accuracy = {{TP + TN} \over {TP + TN + FP + FN}} $$
-$$ Recall = {TP \over {TP + FN}} = TPR$$
-$$ Precision = {TP \over {TP + FP}} $$
-$$ MA = {FN \over {TP + FN}} $$
-$$ FA = {FP \over {TP + FP}} $$
-$$MOTA = 1 - {\sum_t(FN + FP + IDs)\over \sum_t gt}$$
-$$ MOTP = {\sum_{t,i}d_t^i \over \sum_tc_t }$$
-$$ IDP = {IDTP \over {IDTP + IDFP}} $$
-$$ IDR = {IDTP \over {IDTP + IDFN}} $$
-$$ IDF1 = {2 \over {{1 \over IDP} + {1 \over IDR}}} = {2IDTP \over {2IDTP + IDFP + IDFN}} $$
+| metric|formula|
+| :---:|:---:|
+| accuracy| $ Accuracy = {{TP + TN} \over {TP + TN + FP + FN}} $|
+| recall | $ Recall = {TP \over {TP + FN}} = TPR$|
+|precision|$ Precision = {TP \over {TP + FP}} $|
+|MA|$ MA = {FN \over {TP + FN}} $|
+|FA| $ FA = {FP \over {TP + FP}} $|
+| MOTA| $MOTA = 1 - {\sum_t(FN + FP + IDs)\over \sum_t gt}$|
+|MOTAP|$ MOTP = {\sum_{t,i}d_t^i \over \sum_tc_t }$|
+|IDP|$ IDP = {IDTP \over {IDTP + IDFP}} $|
+|IDR| $ IDR = {IDTP \over {IDTP + IDFN}} $|
+|IDF1| $ IDF1 = {2 \over {{1 \over IDP} + {1 \over IDR}}} = {2IDTP \over {2IDTP + IDFP + IDFN}} $|
 
 [Evaluation code](https://github.com/cheind/py-motmetrics)
 
