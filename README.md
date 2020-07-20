@@ -7,7 +7,6 @@
 
 <!-- TOC -->
 
-  - [Contents](#contents)
   - [Review papers](#review-papers)
   - [Algorithm papers](#algorithm-papers)
     - [**2020**](#2020)
