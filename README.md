@@ -160,7 +160,7 @@ APOLLOSCAPE [[url]](http://apolloscape.auto/tracking.html)<br>
 |MA|$ MA = {FN \over {TP + FN}} $|
 |FA| $ FA = {FP \over {TP + FP}} $|
 | MOTA| $MOTA = 1 - {\sum_t(FN + FP + IDs)\over \sum_t gt}$|
-|MOTAP|$ MOTP = {\sum_{t,i}d_t^i \over \sum_tc_t }$|
+|MOTP|$ MOTP = {\sum_{t,i}d_t^i \over \sum_tc_t }$|
 |IDP|$ IDP = {IDTP \over {IDTP + IDFP}} $|
 |IDR| $ IDR = {IDTP \over {IDTP + IDFN}} $|
 |IDF1| $ IDF1 = {2 \over {{1 \over IDP} + {1 \over IDR}}} = {2IDTP \over {2IDTP + IDFP + IDFN}} $|
