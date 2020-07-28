@@ -128,6 +128,8 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 **SORT**: Simple online and realtime tracking [[code]](https://link.zhihu.com/?target=https%3A//github.com/abewley/sort)[[paper]](https://arxiv.org/pdf/1602.00763.pdf)
 
+**POI**: POI: Multiple Object Tracking with High Performance Detection and Appearance Feature [[code](https://arxiv.org/pdf/1610.06136)]
+
 
 ## 数据集
 
