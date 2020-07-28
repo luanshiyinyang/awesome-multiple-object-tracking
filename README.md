@@ -63,6 +63,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 **GNMOT**: Graph Networks for Multiple Object Tracking [[code]](https://github.com/yinizhizhu/GNMOT)[[paper]](https://link.zhihu.com/?target=https%3A//ieeexplore.ieee.org/stamp/stamp.jsp%3Ftp%3D%26arnumber%3D9093347)
 
+**FAMNet**:Joint Learning of Feature, Affinity and Multi-dimensional Assignment for Online Multiple Object Tracking[paper](https://arxiv.org/pdf/1904.04989.pdf)
 
 <a id="markdown-2019" name="2019"></a>
 ### **2019**
