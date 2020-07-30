@@ -1,7 +1,8 @@
+<a id="markdown-awesome-multiple-object-tracking-awesomehttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvghttpsgithubcomsindresorhusawesome" name="awesome-multiple-object-tracking-awesomehttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvghttpsgithubcomsindresorhusawesome"></a>
 # Awesome Multiple object Tracking: [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 > A curated list of multi-object-tracking and related area resources. It only contains online methods.
-> zys维护
+
 
 <a id="markdown-contents" name="contents"></a>
 ## Contents
@@ -10,17 +11,19 @@
 
   - [Review papers](#review-papers)
   - [Algorithm papers](#algorithm-papers)
-    - [**2020**](#2020)
-    - [**2019**](#2019)
-    - [**2018**](#2018)
-    - [**2017**](#2017)
-    - [**2016**](#2016)
+      - [**2020**](#2020)
+      - [**2019**](#2019)
+      - [**2018**](#2018)
+      - [**2017**](#2017)
+      - [**2016**](#2016)
   - [Datasets](#datasets)
-    - [Surveillance Scenarios](#surveillance-scenarios)
-    - [Driving Scenarios](#driving-scenarios)
+      - [Surveillance Scenarios](#surveillance-scenarios)
+      - [Driving Scenarios](#driving-scenarios)
   - [Metrics](#metrics)
   - [Benchmark Results](#benchmark-results)
-    - [MOT16](#mot16)
+      - [MOT16](#mot16)
+      - [MOT17](#mot17)
+      - [MOT20](#mot20)
 
 <!-- /TOC -->
 
@@ -190,6 +193,7 @@ APOLLOSCAPE [[url]](http://apolloscape.auto/tracking.html)<br>
 |  10  |       NOMT       | 46.4 |                   Near-Online Multi-target Tracking with Aggregated Local Flow Descriptor                   | 2015 |
 |  11  |      DMMOT       | 46.1 |                     Online Multi-Object Tracking with Dual Matching Attention Networks                      | 2019 |
 
+<a id="markdown-mot17" name="mot17"></a>
 ### MOT17
 
 | Rank |       Model       | MOTA |                                                    Paper                                                     | Year |
@@ -203,6 +207,7 @@ APOLLOSCAPE [[url]](http://apolloscape.auto/tracking.html)<br>
 |7|	FWT|51.3|Fusion of Head and Full-Body Detectors for Multi-Object Tracking|2017|
 |8|MOTDT17|50.9|Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification|2018|
 
+<a id="markdown-mot20" name="mot20"></a>
 ### MOT20
 
 
