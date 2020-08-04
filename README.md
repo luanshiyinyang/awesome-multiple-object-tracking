@@ -2,6 +2,8 @@
 
 > A curated list of multi-object-tracking and related area resources. It only contains online methods.
 
+> 中文版更为详细，具体查看仓库根目录下的[[README-zh.md](./README-zh.md)文件。
+
 
 <a id="markdown-contents" name="contents"></a>
 ## Contents
