@@ -49,6 +49,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 
 ### **2020**
+**DMM-Net**: Simultaneous Detection and Tracking with Motion Modelling for Multiple Object Tracking [[code](https://github.com/shijieS/DMMN)][[paper](https://arxiv.org/abs/2008.08826)]
 
 **SoDA**: SoDA: Multi-Object Tracking with Soft Data Association [[code]][[paper](https://arxiv.org/abs/2008.07725)]
 
