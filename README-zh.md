@@ -386,7 +386,7 @@ Online Multi-Object Tracking 中发布了一个新的数据集，其基于已公
 <br>不过该数据集尚未公开。
 
 
-## 指标
+## 评估指标
 
 多目标跟踪（MOT）方法的评价指标是至关重要的，因为它们公平地定量地比较了不同算法的优劣。
 
@@ -461,38 +461,38 @@ MOT领域大部分Benchmark都可以在MOT Challenge官网找到，下文的表�
 
 ### MOT16
 
-| 排名 |       模型       | MOTA |                                                    论文                                                     | 年份 |
-| :--: | :--------------: | :--: | :---------------------------------------------------------------------------------------------------------: | :--: |
-|  1   |     FairMOT      | 68.7 |                                 A Simple Baseline for Multi-Object Tracking                                 | 2020 |
-|  2   |       JDE        | 64.4 |                                   Towards Real-Time Multi-Object Tracking                                   | 2019 |
-|  3   |      Lif_T       | 61.3 |                     Lifted Disjoint Paths with Application in Multiple Object Tracking                      | 2020 |
-|  4   |     MPNTrack     | 58.6 |                            Learning a Neural Solver for Multiple Object Tracking                            | 2020 |
-|  5   | DeepMOT-Tracktor | 54.8 |                                 How To Train Your Deep Multi-Object Tracker                                 | 2019 |
-|  6   |       TNT        | 49.2 |                      Exploit the Connectivity: Multi-Object Tracking with TrackletNet                       | 2018 |
-|  7   |       GCRA       | 48.2 | Trajectory Factory: Tracklet Cleaving and Re-connection by Deep Siamese Bi-GRU for Multiple Object Tracking | 2018 |
-|  8   |       FWT        | 47.8 |                      Fusion of Head and Full-Body Detectors for Multi-Object Tracking                       | 2017 |
-|  9   |      MOTDT       | 47.6 |   Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification   | 2018 |
-|  10  |       NOMT       | 46.4 |                   Near-Online Multi-target Tracking with Aggregated Local Flow Descriptor                   | 2015 |
-|  11  |      DMMOT       | 46.1 |                     Online Multi-Object Tracking with Dual Matching Attention Networks                      | 2019 |
+| 排名  |       模型       | MOTA  |                                                    论文                                                     | 年份  |
+| :---: | :--------------: | :---: | :---------------------------------------------------------------------------------------------------------: | :---: |
+|   1   |     FairMOT      | 68.7  |                                 A Simple Baseline for Multi-Object Tracking                                 | 2020  |
+|   2   |       JDE        | 64.4  |                                   Towards Real-Time Multi-Object Tracking                                   | 2019  |
+|   3   |      Lif_T       | 61.3  |                     Lifted Disjoint Paths with Application in Multiple Object Tracking                      | 2020  |
+|   4   |     MPNTrack     | 58.6  |                            Learning a Neural Solver for Multiple Object Tracking                            | 2020  |
+|   5   | DeepMOT-Tracktor | 54.8  |                                 How To Train Your Deep Multi-Object Tracker                                 | 2019  |
+|   6   |       TNT        | 49.2  |                      Exploit the Connectivity: Multi-Object Tracking with TrackletNet                       | 2018  |
+|   7   |       GCRA       | 48.2  | Trajectory Factory: Tracklet Cleaving and Re-connection by Deep Siamese Bi-GRU for Multiple Object Tracking | 2018  |
+|   8   |       FWT        | 47.8  |                      Fusion of Head and Full-Body Detectors for Multi-Object Tracking                       | 2017  |
+|   9   |      MOTDT       | 47.6  |   Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification   | 2018  |
+|  10   |       NOMT       | 46.4  |                   Near-Online Multi-target Tracking with Aggregated Local Flow Descriptor                   | 2015  |
+|  11   |      DMMOT       | 46.1  |                     Online Multi-Object Tracking with Dual Matching Attention Networks                      | 2019  |
 
 
 ### MOT17
 
-| 排名 |       模型       | MOTA |                                                    论文                                                     | 年份 |
-| :--: | :--------------: | :--: | :---------------------------------------------------------------------------------------------------------: | :--: |
-|  1   |     FairMOT      | 67.5 |                                 A Simple Baseline for Multi-Object Tracking                                 | 2020 |
-|  2   |       Lif_T        | 60.5 |                                   Lifted Disjoint Paths with Application in Multiple Object Tracking                                   | 2020 |
-|3|MPNTrack| 58.8 | Learning a Neural Solver for Multiple Object Tracking | 2020|
-|4| DeepMOT | 53.7|How To Train Your Deep Multi-Object Tracker|2019|
-|5| JBNOT|52.6| Multiple People Tracking using Body and Joint Detections|2019|
-|6|TNT|51.9|Exploit the Connectivity: Multi-Object Tracking with TrackletNet|2018|
-|7|	FWT|51.3|Fusion of Head and Full-Body Detectors for Multi-Object Tracking|2017|
-|8|MOTDT17|50.9|Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification|2018|
+| 排名  |   模型   | MOTA  |                                                  论文                                                   | 年份  |
+| :---: | :------: | :---: | :-----------------------------------------------------------------------------------------------------: | :---: |
+|   1   | FairMOT  | 67.5  |                               A Simple Baseline for Multi-Object Tracking                               | 2020  |
+|   2   |  Lif_T   | 60.5  |                   Lifted Disjoint Paths with Application in Multiple Object Tracking                    | 2020  |
+|   3   | MPNTrack | 58.8  |                          Learning a Neural Solver for Multiple Object Tracking                          | 2020  |
+|   4   | DeepMOT  | 53.7  |                               How To Train Your Deep Multi-Object Tracker                               | 2019  |
+|   5   |  JBNOT   | 52.6  |                        Multiple People Tracking using Body and Joint Detections                         | 2019  |
+|   6   |   TNT    | 51.9  |                    Exploit the Connectivity: Multi-Object Tracking with TrackletNet                     | 2018  |
+|   7   |   FWT    | 51.3  |                    Fusion of Head and Full-Body Detectors for Multi-Object Tracking                     | 2017  |
+|   8   | MOTDT17  | 50.9  | Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification | 2018  |
 
 ### MOT20
 
 
-| 排名 |       模型       | MOTA |                                                    论文                                                     | 年份 |
-| :--: | :--------------: | :--: | :---------------------------------------------------------------------------------------------------------: | :--: |
-|  1   |     FairMOT      | 61.8 |                                 A Simple Baseline for Multi-Object Tracking                                 | 2020 |
-|2| UnsupTrack| 53.6 |Simple Unsupervised Multi-Object Tracking|2020|
+| 排名  |    模型    | MOTA  |                    论文                     | 年份  |
+| :---: | :--------: | :---: | :-----------------------------------------: | :---: |
+|   1   |  FairMOT   | 61.8  | A Simple Baseline for Multi-Object Tracking | 2020  |
+|   2   | UnsupTrack | 53.6  |  Simple Unsupervised Multi-Object Tracking  | 2020  |
