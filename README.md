@@ -36,6 +36,7 @@ Deep Learning in Video Multi-Object Tracking: A Survey [[paper]](https://arxiv.o
 
 Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tracking [[paper]](https://arxiv.org/pdf/1704.02781.pdf)
 
+Machine Learning Methods for Data Association in Multi-Object Tracking [[paper](https://arxiv.org/pdf/1802.06897v2)]
 
 <a id="markdown-algorithm-papers" name="algorithm-papers"></a>
 ## Algorithm papers
