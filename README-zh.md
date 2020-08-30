@@ -387,6 +387,30 @@ Online Multi-Object Tracking 中发布了一个新的数据集，其基于已公
 ![APOLLO MOTS](assets/APOLLO%20MOTS.png)
 <br>不过该数据集尚未公开。
 
+---
+
+### Omni-MOT
+该数据集是在长安大学等高效联合发表的文章[Simultaneous Detection and Tracking with Motion Modelling for Multiple Object Tracking](https://arxiv.org/abs/2008.08826)中提出的一个用于车辆多目标跟踪的大型数据集。它是基于[CARLA](https://arxiv.org/abs/1711.03938)的城市车辆模拟器的基础上制作的。该数据集包含中14M+帧，250K的轨迹以及110M的Bbox，它还分为三种天气状况，三种密度等级、五个模拟的城镇以及三种摄像头视角。论文中提到Omni数据集提供的画面帧数是MOT17的1200倍，提供的轨迹数量是UA-DETRAC的210倍，Bbox数量是UA-DETRAC的30倍。下图是该数据集的结构情况：
+![Omni-structure](/assets/Omni-Structure.png)
+数据集的标注比较丰富：
+| Index | Name                | Description                                                  |
+| ----- | ------------------- | ------------------------------------------------------------ |
+| 0     | frame index         | 0\-based frame index                                         |
+| 1     | vehicle id          | the unique id of vehicle \(0\-based\)                        |
+| 2     | bbox                | represents left, top, right, bottom of the vehicle’s bounding box |
+| 6     | 3d bbox             | The 8 points of the vehicle’s 3D bounding boxes in the image coordinate |
+| 14    | vehicle position    | the world coordinate of the vehicle’s center in the world coordinate |
+| 17    | integrity           | the integrity of the vehicle, value is in \(0, 1\)           |
+| 18    | velocity vector     | the velocity vector in the world coordinate\.                |
+| 21    | acceleration vector | the acceleration vector in the world coordinate\.            |
+| 24    | wheel number        | number of wheels                                             |
+| 25    | camera view size    | the width and the height of the camera                       |
+| 27    | camera FOV          | the field of view of the camera                              |
+| 28    | camera position     | the camera coordinate in the world coordinate                |
+| 31    | camera rotation     | the rotation of the camera                                   |
+| 34    | weather condition   | the weather condition of current frame\.                     |
+
+数据集的演示情况在[Omni-Dataset](https://www.bilibili.com/video/av753670802/)。下载地址为[Omni Download](https://pan.baidu.com/s/1ma0rZIW6vfXeq5tdEk6K2w)。
 
 ## 评估指标
 
