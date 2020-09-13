@@ -51,7 +51,9 @@ Machine Learning Methods for Data Association in Multi-Object Tracking [[paper](
 
 
 ### **2020**
-**MAT**: MAT: Motion-Aware Multi-Object Tracking  [[paper](https://arxiv.org/ftp/arxiv/papers/2009/2009.04794.pdf)]
+**MAT**: MAT: Motion-Aware Multi-Object Tracking[[paper](https://arxiv.org/ftp/arxiv/papers/2009/2009.04794.pdf)]
+
+**FairMOT**: FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking [[code](https://github.com/ifzhang/FairMOT)][[paper](https://arxiv.org/pdf/2004.01888v5.pdf)] **a new version of FairMOT, compared with new method like CTracker**
 
 **DMM-Net**: Simultaneous Detection and Tracking with Motion Modelling for Multiple Object Tracking [[code](https://github.com/shijieS/DMMN)][[paper](https://arxiv.org/abs/2008.08826)]
 
