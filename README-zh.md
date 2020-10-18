@@ -46,6 +46,7 @@ Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tr
 
 Machine Learning Methods for Data Association in Multi-Object Tracking [[paper](https://arxiv.org/pdf/1802.06897v2)]
 
+MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper]](https://arxiv.org/pdf/2010.07548.pdf)  **new paper for new MOT researcher**
 
 ## 算法论文
 
