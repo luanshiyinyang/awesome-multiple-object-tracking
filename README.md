@@ -47,6 +47,9 @@ MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper]](h
 
 <a id="markdown-2020" name="2020"></a>
 ### **2020**
+**AGT**: FGAGT: Flow-Guided Adaptive Graph Tracking [[paper](https://arxiv.org/pdf/2010.09015.pdf)]
+
+
 **MAT**: MAT: Motion-Aware Multi-Object Tracking [[paper](https://arxiv.org/ftp/arxiv/papers/2009/2009.04794.pdf)]
 
 **FairMOT**: FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking [[code](https://github.com/ifzhang/FairMOT)][[paper](https://arxiv.org/pdf/2004.01888v5.pdf)] **a new version of FairMOT, compared with new method like CTracker**
