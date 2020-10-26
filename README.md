@@ -7,7 +7,6 @@
 ## Contents
 
 <!-- TOC -->
-  - [Contents](#contents)
   - [Review papers](#review-papers)
   - [Algorithm papers](#algorithm-papers)
     - [**2020**](#2020)
@@ -24,6 +23,7 @@
     - [MOT17](#mot17)
     - [MOT20](#mot20)
   - [Toolbox](#toolbox)
+  - [Course](#course)
 
 <!-- /TOC -->
 
@@ -240,6 +240,7 @@ APOLLOSCAPE [[url]](http://apolloscape.auto/tracking.html)<br>
 
 [LibMOT: a simple mot toolbox for mot research](https://github.com/nightmaredimple/libmot)
 
+<a id="markdown-course" name="course"></a>
 ## Course
 
 [link](https://youtu.be/ay_QLAHcZLY) is a good course about multiple object tracking. The course is offered as a Massive Open Online Course (MOOC) on edX. 
