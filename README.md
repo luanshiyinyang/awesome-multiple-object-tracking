@@ -239,3 +239,7 @@ APOLLOSCAPE [[url]](http://apolloscape.auto/tracking.html)<br>
 ## Toolbox
 
 [LibMOT: a simple mot toolbox for mot research](https://github.com/nightmaredimple/libmot)
+
+## Course
+
+[link](https://youtu.be/ay_QLAHcZLY) is a good course about multiple object tracking. The course is offered as a Massive Open Online Course (MOOC) on edX. 

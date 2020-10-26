@@ -532,3 +532,12 @@ MOT领域大部分Benchmark都可以在MOT Challenge官网找到，下文的表�
 | :---: | :--------: | :---: | :-----------------------------------------: | :---: |
 |   1   |  FairMOT   | 61.8  | A Simple Baseline for Multi-Object Tracking | 2020  |
 |   2   | UnsupTrack | 53.6  |  Simple Unsupervised Multi-Object Tracking  | 2020  |
+
+
+## 工具箱
+
+[LibMOT: a simple mot toolbox for mot research](https://github.com/nightmaredimple/libmot)
+
+## 课程
+
+[链接](https://youtu.be/ay_QLAHcZLY)指向的是MOT领域很好的入门视频。 这门课在edx上以慕课形式提供。
