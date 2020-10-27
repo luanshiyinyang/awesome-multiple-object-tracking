@@ -576,4 +576,4 @@ MOT领域大部分Benchmark都可以在MOT Challenge官网找到，下文的表�
 <a id="markdown-课程" name="课程"></a>
 ## 课程
 
-[链接](https://youtu.be/ay_QLAHcZLY)指向的是MOT领域很好的入门视频。 这门课在edx上以慕课形式提供。
+[链接](https://www.youtube.com/watch?v=ay_QLAHcZLY&list=PLadnyz93xCLhSlm2tMYJSKaik39EZV_Uk)指向的是MOT领域很好的入门视频。 这门课在edx上以慕课形式提供。

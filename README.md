@@ -243,4 +243,4 @@ APOLLOSCAPE [[url]](http://apolloscape.auto/tracking.html)<br>
 <a id="markdown-course" name="course"></a>
 ## Course
 
-[link](https://youtu.be/ay_QLAHcZLY) is a good course about multiple object tracking. The course is offered as a Massive Open Online Course (MOOC) on edX. 
+[link](https://www.youtube.com/watch?v=ay_QLAHcZLY&list=PLadnyz93xCLhSlm2tMYJSKaik39EZV_Uk) is a good course about multiple object tracking. The course is offered as a Massive Open Online Course (MOOC) on edX. 
