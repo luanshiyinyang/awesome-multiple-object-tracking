@@ -429,7 +429,7 @@ APOLLOSCAPE 是百度公司提供的自动驾驶数据集，包括具有高分�
 收录于 ECCV2020 的论文 Segment as Points for Efficient
 Online Multi-Object Tracking 中发布了一个新的数据集，其基于已公开的 APOLLISCAPE 数据集建立的，名为 APOLLO MOTS。下图为论文中的表格，对比了 APOLLO MOTS 和 KITTI Tracking 数据集。
 ![APOLLO MOTS](assets/APOLLO%20MOTS.png)
-<br>不过该数据集尚未公开。
+<br>该数据集的下载地址可以访问其[Github主页](https://github.com/detectRecog/PointTrack)。
 
 ---
 
