@@ -48,13 +48,13 @@ MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper]](h
 <a id="markdown-2020" name="2020"></a>
 ### **2020**
 
+**TPAGT**: FGAGT: Tracklets Predicting Based Adaptive Graph Tracking [[paper](https://arxiv.org/pdf/2010.09015v3.pdf)]
+
 **GSDT**: Joint Object Detection and Multi-Object Tracking with Graph Neural Networks [[paper](http://arxiv.org/pdf/2006.13164)]
 
 **SMOT**: SMOT: Single-Shot Multi Object Tracking [[paper](http://arxiv.org/pdf/2010.16031)]
 
 **CSTrack**: Rethinking the competition between detection and ReID in Multi-Object Tracking  [[paper](http://arxiv.org/pdf/2010.12138)]
-
-**FGAGT**: FGAGT: Flow-Guided Adaptive Graph Tracking [[paper](https://arxiv.org/pdf/2010.09015.pdf)]
 
 
 **MAT**: MAT: Motion-Aware Multi-Object Tracking [[paper](https://arxiv.org/ftp/arxiv/papers/2009/2009.04794.pdf)]
