@@ -25,6 +25,7 @@
     - [JTA Dataset](#jta-dataset)
     - [Path Track](#path-track)
     - [TAO](#tao)
+    - [GMOT40](#gmot-40)
     - [KITTI-Tracking](#kitti-tracking)
     - [APOLLOSCAPE](#apolloscape)
       - [APOLLO Dection/Tracking](#apollo-dectiontracking)
@@ -387,6 +388,13 @@ CMU 等在今年提出了一个新的大型 MOT 数据集，TAO（Tracking Any O
 ![TAO_wordcloud](assets/TAO%20wordcloud.jpg)
 上图是 TAO 中的类别形成的词云，其大小按实例数量进行加权，并根据其超类别进行着色。
 <br>数据集的下载以及相关代码的地址为[TAO](https://github.com/TAO-Dataset/tao)。
+
+---
+<a id="markdown-gmot40" name="gmot40"></a>
+### GMOT-40
+微软联合天普大学以及纽约周立大学石溪分校于2020年11月发表了文章[GMOT-40: A Benchmark for Generic Multiple Object Tracking](https://arxiv.org/abs/2011.11858)，提出了一个新的用于多目标跟踪的数据集Generic Multiple Object Tracking（GMOT)，包含40个精心标注的视频序列，共有十类，比如飞机、气球、人等等。
+![GMOT-40](/assets/GMOT-40.png)
+遗憾的是，作者要等到论文收录之后再公开数据集。
 
 ---
 
