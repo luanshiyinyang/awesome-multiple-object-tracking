@@ -463,6 +463,31 @@ Online Multi-Object Tracking 中发布了一个新的数据集，其基于已公
 
 数据集的演示情况在[Omni-Dataset](https://www.bilibili.com/video/av753670802/)。下载地址为[Omni Download](https://pan.baidu.com/s/1ma0rZIW6vfXeq5tdEk6K2w)。
 
+---
+<a id="markdown-bdd100k" name="bdd100k"></a>
+### BDD100K
+BDD100k数据集是伯克利大学AI实验室（BAIR）于2018年提出的一个驾驶视频数据集，原文是[BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning](https://arxiv.org/abs/1805.04687)，并且文中还介绍了一个图片标注系统——Labeling System。<br>
+官网：[BDD100K](https://bair.berkeley.edu/blog/2018/05/30/bdd/)<br>
+下载地址：[BDD100K](http://bdd-data.berkeley.edu/)
+<br>
+该数据集包含10万段高清视频，每个视频约40秒，720p，30fps。对每个视频的第10秒对关键帧进行采样，得到10万张图片（图片尺寸：1280*720），并进行标注。
+![BDD-100k_label_example](/assets/BDD100L_label_example.png)
+其中不仅有对各种车辆的标注，也有大量对行人的标注。
+![BDD-100K_labels](/assets/BDD100K_labels.png)
+BDD100K数据集不仅分多类别标注，还分晴天、多云等六种天气，住宅区、公路等六种场景，白天、夜晚等三个时间段，以及是否遮挡、是否截断。
+
+---
+<a id="markdown-waymo" name="waymo"></a>
+### Waymo
+2019年，谷歌母公司Alphabet旗下的自动驾驶公司Waymo在其博客公布了自动驾驶数据集——Waymo。<br>
+下载地址：[Waymo](https://waymo.com/open/download/#)（需要科学上网，并用谷歌账户登录。下载下来是压缩包，解压后是tfrecord文件。）<br>
+数据集解析：[Waymo](https://waymo.com/open/data/)<br>
+代码：[Waymo](https://github.com/waymo-research/waymo-open-dataset)（需要clone相应代码对数据集进行解析。）
+<br>
+该数据集包含3000个驾驶片段，每一片段包含20秒的连续驾驶画面。 数据采集的范围涵盖凤凰城、柯克兰、山景城、旧金山等地区，以及各种驾驶条件下的数据，包括白天、黑夜、黎明、黄昏、雨天和晴天。 车辆、行人、自行车、标识牌等图像都经过精心标记，一共打了2500万个3D标签和2200万个2D标签。
+
+
+---
 <a id="markdown-评估指标" name="评估指标"></a>
 ## 评估指标
 
