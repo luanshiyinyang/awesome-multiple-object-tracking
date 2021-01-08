@@ -9,6 +9,7 @@
 <!-- TOC -->
   - [Review papers](#review-papers)
   - [Algorithm papers](#algorithm-papers)
+    - [**2021**](#2021)
     - [**2020**](#2020)
     - [**2019**](#2019)
     - [**2018**](#2018)
@@ -43,6 +44,13 @@ MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper]](h
 
 <a id="markdown-algorithm-papers" name="algorithm-papers"></a>
 ## Algorithm papers
+
+<a id="markdown-2021" name="2021"></a>
+### **2021**
+
+**TrackFormer**: TrackFormer: Multi-Object Tracking with Transformers [[code]] [[paper](https://arxiv.org/pdf/2101.02702.pdf)]
+
+
 
 
 <a id="markdown-2020" name="2020"></a>

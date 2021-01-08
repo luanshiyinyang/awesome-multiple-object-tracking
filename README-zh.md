@@ -5,9 +5,8 @@
 <a id="markdown-目录" name="目录"></a>
 ## 目录
 <!-- TOC -->
-
-  - [综述论文](#综述论文)
   - [算法论文](#算法论文)
+    - [**2021**](#2021)
     - [**2020**](#2020)
     - [**2019**](#2019)
     - [**2018**](#2018)
@@ -25,7 +24,7 @@
     - [JTA Dataset](#jta-dataset)
     - [Path Track](#path-track)
     - [TAO](#tao)
-    - [GMOT40](#gmot-40)
+    - [GMOT-40](#gmot-40)
     - [KITTI-Tracking](#kitti-tracking)
     - [APOLLOSCAPE](#apolloscape)
       - [APOLLO Dection/Tracking](#apollo-dectiontracking)
@@ -60,6 +59,10 @@ MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper]](h
 <a id="markdown-算法论文" name="算法论文"></a>
 ## 算法论文
 
+<a id="markdown-2021" name="2021"></a>
+### **2021**
+
+**TrackFormer**: TrackFormer: Multi-Object Tracking with Transformers [[code]] [[paper](https://arxiv.org/pdf/2101.02702.pdf)]
 
 <a id="markdown-2020" name="2020"></a>
 ### **2020**
@@ -392,7 +395,7 @@ CMU 等在今年提出了一个新的大型 MOT 数据集，TAO（Tracking Any O
 <br>数据集的下载以及相关代码的地址为[TAO](https://github.com/TAO-Dataset/tao)。
 
 ---
-<a id="markdown-gmot40" name="gmot40"></a>
+<a id="markdown-gmot-40" name="gmot-40"></a>
 ### GMOT-40
 微软联合天普大学以及纽约周立大学石溪分校于2020年11月发表了文章[GMOT-40: A Benchmark for Generic Multiple Object Tracking](https://arxiv.org/abs/2011.11858)，提出了一个新的用于多目标跟踪的数据集Generic Multiple Object Tracking（GMOT)，包含40个精心标注的视频序列，共有十类，比如飞机、气球、人等等。
 ![GMOT-40](/assets/GMOT-40.png)
