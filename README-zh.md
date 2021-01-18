@@ -623,7 +623,9 @@ MOT领域大部分Benchmark都可以在MOT Challenge官网找到，下文的表�
 <a id="markdown-工具箱" name="工具箱"></a>
 ## 工具箱
 
-[LibMOT: a simple mot toolbox for mot research](https://github.com/nightmaredimple/libmot)
+**mmtracking**: OpenMMLab开发的视频感知工具箱，支持单目标跟踪、多目标跟踪和视频目标检测的统一框架。
+
+[Github地址](https://github.com/open-mmlab/mmtracking)  [官方文档](https://mmtracking.readthedocs.io/en/latest/)
 
 <a id="markdown-课程" name="课程"></a>
 ## 课程

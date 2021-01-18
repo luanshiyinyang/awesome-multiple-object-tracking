@@ -266,7 +266,9 @@ Waymo [[url]](https://waymo.com/open/download/#)<br>
 <a id="markdown-toolbox" name="toolbox"></a>
 ## Toolbox
 
-[LibMOT: a simple mot toolbox for mot research](https://github.com/nightmaredimple/libmot)
+**mmtracking**: OpenMMLab Video Perception Toolbox. It supports Single Object Tracking (SOT), Multiple Object Tracking (MOT), Video Object Detection (VID) with a unified framework.
+
+[Github](https://github.com/open-mmlab/mmtracking)  [DOC](https://mmtracking.readthedocs.io/en/latest/)
 
 <a id="markdown-course" name="course"></a>
 ## Course
