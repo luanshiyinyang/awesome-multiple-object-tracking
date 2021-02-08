@@ -62,6 +62,8 @@ MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper]](h
 <a id="markdown-2021" name="2021"></a>
 ### **2021**
 
+**DEFT**: DEFT: Detection Embeddings for Tracking [[code](https://github.com/MedChaabane/DEFT)] [[paper](https://arxiv.org/pdf/2102.02267.pdf)]
+
 **TrackFormer**: TrackFormer: Multi-Object Tracking with Transformers [[code]] [[paper](https://arxiv.org/pdf/2101.02702.pdf)]
 
 <a id="markdown-2020" name="2020"></a>
