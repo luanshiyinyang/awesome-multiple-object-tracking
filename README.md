@@ -32,15 +32,15 @@
 <a id="markdown-review-papers" name="review-papers"></a>
 ## Review papers
 
-Multiple Object Tracking: A Literature Review [[paper]](https://arxiv.org/pdf/1409.7618.pdf)
+Multiple Object Tracking: A Literature Review [[paper](https://arxiv.org/pdf/1409.7618.pdf)]
 
-Deep Learning in Video Multi-Object Tracking: A Survey [[paper]](https://arxiv.org/pdf/1907.12740.pdf)
+Deep Learning in Video Multi-Object Tracking: A Survey [[paper](https://arxiv.org/pdf/1907.12740.pdf)]
 
-Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tracking [[paper]](https://arxiv.org/pdf/1704.02781.pdf)
+Tracking the Trackers: An Analysis of the State of the Art in Multiple Object Tracking [[paper](https://arxiv.org/pdf/1704.02781.pdf)]
 
-Machine Learning Methods for Data Association in Multi-Object Tracking [[paper]](https://arxiv.org/pdf/1802.06897v2)]
+Machine Learning Methods for Data Association in Multi-Object Tracking [[paper](https://arxiv.org/pdf/1802.06897v2)]
 
-MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper]](https://arxiv.org/pdf/2010.07548.pdf)  **new paper for new MOT researcher**
+MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper](https://arxiv.org/pdf/2010.07548.pdf)]  **new paper for new MOT researcher**
 
 <a id="markdown-algorithm-papers" name="algorithm-papers"></a>
 ## Algorithm papers
