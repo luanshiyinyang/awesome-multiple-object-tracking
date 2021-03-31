@@ -62,6 +62,8 @@ MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper](ht
 <a id="markdown-2021" name="2021"></a>
 ### **2021**
 
+**TransCenter**: TransCenter: Transformers with Dense Queries for Multiple-Object Tracking [code] [[paper](https://arxiv.org/pdf/2103.15145.pdf)]
+
 **GCNet**: Global Correlation Network: End-to-End Joint Multi-Object Detection and Tracking [code] [[paper](https://arxiv.org/pdf/2103.12511.pdf)]  **ICCV2021**
 
 **TraDes**: Track to Detect and Segment: An Online Multi-Object Tracker [[code](https://github.com/JialianW/TraDeS)]  [[paper](https://arxiv.org/pdf/2103.08808.pdf)] **CVPR2021**
