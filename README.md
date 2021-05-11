@@ -48,6 +48,8 @@ MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper](ht
 <a id="markdown-2021" name="2021"></a>
 ### **2021**
 
+**RelationTrack**: RelationTrack: Relation-aware Multiple Object Tracking with Decoupled Representation [[code]] [[paper](https://arxiv.org/pdf/2105.04322.pdf)]
+
 **MOTR**: MOTR: End-to-End Multiple-Object Tracking with TRansformer [[code](https://github.com/megvii-model/MOTR)]  [[paper](https://arxiv.org/pdf/2105.03247.pdf)]
 
 **CSTrackV2/RCNet**: One More Check: Making "Fake Background" Be Tracked Again [[code](https://github.com/JudasDie/SOTS)] [[paper](https://arxiv.org/pdf/2104.09441.pdf)]
