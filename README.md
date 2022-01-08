@@ -6,7 +6,6 @@
 <a id="markdown-contents" name="contents"></a>
 ## Contents
 <!-- TOC -->
-  - [Contents](#contents)
   - [Review papers](#review-papers)
   - [Algorithm papers](#algorithm-papers)
     - [**2022**](#2022)
