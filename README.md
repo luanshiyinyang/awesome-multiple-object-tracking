@@ -5,10 +5,11 @@
 
 <a id="markdown-contents" name="contents"></a>
 ## Contents
-
 <!-- TOC -->
+  - [Contents](#contents)
   - [Review papers](#review-papers)
   - [Algorithm papers](#algorithm-papers)
+    - [**2022**](#2022)
     - [**2021**](#2021)
     - [**2020**](#2020)
     - [**2019**](#2019)
@@ -44,6 +45,13 @@ MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper](ht
 
 <a id="markdown-algorithm-papers" name="algorithm-papers"></a>
 ## Algorithm papers
+
+<a id="markdown-2022" name="2022"></a>
+### **2022**
+
+**MAA**: Modelling Ambiguous Assignments for Multi-Person Tracking in Crowds [[code]] [[paper](https://openaccess.thecvf.com/content/WACV2022W/HADCV/papers/Stadler_Modelling_Ambiguous_Assignments_for_Multi-Person_Tracking_in_Crowds_WACVW_2022_paper.pdf)]
+
+**CrowdTrack**: On the Performance of Crowd-Specific Detectors in Multi-Pedestrian Tracking [[code]] [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9663836)]
 
 <a id="markdown-2021" name="2021"></a>
 ### **2021**
