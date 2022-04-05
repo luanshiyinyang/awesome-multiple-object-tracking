@@ -64,6 +64,14 @@ MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper](ht
 <a id="markdown-2022" name="2022"></a>
 ### **2022**
 
+**MeMOT**: MeMOT: Multi-Object Tracking with Memory [[code]] [[paper](https://arxiv.org/pdf/2203.16761.pdf)]
+
+**UTT**: Unified Transformer Tracker for Object Trackin [[code](https://github.com/Flowerfan/Trackron)] [[paper](https://arxiv.org/pdf/2203.15175.pdf)]
+
+**OC-SORT**: Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking [[code](https://github.com/noahcao/OC_SORT)] [[paper](https://arxiv.org/pdf/2203.14360.pdf)]
+
+**StrongSORT**: StrongSORT: Make DeepSORT Great Again [[code]]  [[paper](https://arxiv.org/pdf/2202.13514.pdf)]
+
 **MAA**: Modelling Ambiguous Assignments for Multi-Person Tracking in Crowds [[code]] [[paper](https://openaccess.thecvf.com/content/WACV2022W/HADCV/papers/Stadler_Modelling_Ambiguous_Assignments_for_Multi-Person_Tracking_in_Crowds_WACVW_2022_paper.pdf)]
 
 **CrowdTrack**: On the Performance of Crowd-Specific Detectors in Multi-Pedestrian Tracking [[code]] [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9663836)]
