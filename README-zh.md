@@ -66,7 +66,11 @@ MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper](ht
 
 **MeMOT**: MeMOT: Multi-Object Tracking with Memory [[code]] [[paper](https://arxiv.org/pdf/2203.16761.pdf)]
 
+**TAO-OW**: Opening up Open-World Tracking [[paper](https://arxiv.org/abs/2104.11221)]
+
 **UTT**: Unified Transformer Tracker for Object Trackin [[code](https://github.com/Flowerfan/Trackron)] [[paper](https://arxiv.org/pdf/2203.15175.pdf)]
+
+**GTT**: Global Tracking Transformers [[code](https://github.com/xingyizhou/GTR)] [[paper](https://arxiv.org/abs/2203.13250)]
 
 **OC-SORT**: Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking [[code](https://github.com/noahcao/OC_SORT)] [[paper](https://arxiv.org/pdf/2203.14360.pdf)]
 
