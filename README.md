@@ -50,7 +50,7 @@ MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper](ht
 
 **MeMOT**: MeMOT: Multi-Object Tracking with Memory [[code]] [[paper](https://arxiv.org/pdf/2203.16761.pdf)] **CVPR2022 oral**
 
-**UTT**: Unified Transformer Tracker for Object Trackin [[code](https://github.com/Flowerfan/Trackron)] [[paper](https://arxiv.org/pdf/2203.15175.pdf)] **CVPR2022**
+**UTT**: Unified Transformer Tracker for Object Tracking [[code](https://github.com/Flowerfan/Trackron)] [[paper](https://arxiv.org/pdf/2203.15175.pdf)] **CVPR2022**
  
 **OC-SORT**: Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking [[code](https://github.com/noahcao/OC_SORT)] [[paper](https://arxiv.org/pdf/2203.14360.pdf)]
 
