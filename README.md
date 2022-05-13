@@ -42,7 +42,7 @@ Machine Learning Methods for Data Association in Multi-Object Tracking [[paper](
 
 MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper](https://arxiv.org/pdf/2010.07548.pdf)]  **new paper for new MOT researcher**
 
-Multiple Object Tracking in Deep Learning Approaches:A Survey[[paper](https://www.mdpi.com/2079-9292/10/19/2406/htm)]
+Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://www.mdpi.com/2079-9292/10/19/2406/htm)]
 
 <a id="markdown-algorithm-papers" name="algorithm-papers"></a>
 ## Algorithm papers
