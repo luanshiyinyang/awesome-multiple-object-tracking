@@ -50,6 +50,8 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-2022" name="2022"></a>
 ### **2022**
 
+**SGT**: Detection Recovery in Online Multi-Object Tracking with Sparse Graph Tracker [[code](https://github.com/HYUNJS/SGT)] [[paper](https://arxiv.org/pdf/2205.00968.pdf)]
+
 **MeMOT**: MeMOT: Multi-Object Tracking with Memory [[code]] [[paper](https://arxiv.org/pdf/2203.16761.pdf)] **CVPR2022 oral**
 
 **UTT**: Unified Transformer Tracker for Object Tracking [[code](https://github.com/Flowerfan/Trackron)] [[paper](https://arxiv.org/pdf/2203.15175.pdf)] **CVPR2022**
