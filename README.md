@@ -50,6 +50,8 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-2022" name="2022"></a>
 ### **2022**
 
+**BoT-SORT**: BoT-SORT: Robust Associations Multi-Pedestrian Tracking [[code](https://github.com/NirAharon/BOT-SORT)] [[paper](https://arxiv.org/pdf/2206.14651.pdf)]
+
 Simple Cues Lead to a Strong Multi-Object Tracker [[code]()] [[paper](https://arxiv.org/pdf/2206.04656.pdf)]
 
 **SGT**: Detection Recovery in Online Multi-Object Tracking with Sparse Graph Tracker [[code](https://github.com/HYUNJS/SGT)] [[paper](https://arxiv.org/pdf/2205.00968.pdf)]
