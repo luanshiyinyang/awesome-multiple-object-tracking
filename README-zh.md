@@ -27,6 +27,7 @@
     - [Path Track](#path-track)
     - [TAO](#tao)
     - [GMOT-40](#gmot-40)
+    - [TAO-OW](#tao-ow)
     - [KITTI-Tracking](#kitti-tracking)
     - [APOLLOSCAPE](#apolloscape)
       - [APOLLO Dection/Tracking](#apollo-dectiontracking)
@@ -78,6 +79,8 @@ Simple Cues Lead to a Strong Multi-Object Tracker [[code]()] [[paper](https://ar
 **UTT**: Unified Transformer Tracker for Object Tracking [[code](https://github.com/Flowerfan/Trackron)] [[paper](https://arxiv.org/pdf/2203.15175.pdf)]
 
 **OC-SORT**: Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking [[code](https://github.com/noahcao/OC_SORT)] [[paper](https://arxiv.org/pdf/2203.14360.pdf)]
+
+**GTR**: Global Tracking Transformers [[code](https://github.com/xingyizhou/GTR)] [[paper](https://arxiv.org/pdf/2203.13250.pdf)] 	**CVPR 2022**
 
 **StrongSORT**: StrongSORT: Make DeepSORT Great Again [[code](https://github.com/dyhBUPT/StrongSORT)]  [[paper](https://arxiv.org/pdf/2202.13514.pdf)]
 
@@ -468,6 +471,15 @@ CMU 等在今年提出了一个新的大型 MOT 数据集，TAO（Tracking Any O
 微软联合天普大学以及纽约周立大学石溪分校于2020年11月发表了文章[GMOT-40: A Benchmark for Generic Multiple Object Tracking](https://arxiv.org/abs/2011.11858)，提出了一个新的用于多目标跟踪的数据集Generic Multiple Object Tracking（GMOT)，包含40个精心标注的视频序列，共有十类，比如飞机、气球、人等等。
 ![GMOT-40](/assets/GMOT-40.png)
 遗憾的是，作者要等到论文收录之后再公开数据集。
+
+<a id="markdown-tao-ow" name="tao-ow"></a>
+### TAO-OW
+
+MOTChallenge团队和其他人一起提出的开放世界多目标跟踪，包括数据集、基准提交网站、提出指标，推动了MOT的开放世界任务的发展。
+
+![TAO-OW](/assets/TAOOW.jpg)
+
+地址为[https://openworldtracking.github.io/](https://openworldtracking.github.io/)。
 
 ---
 

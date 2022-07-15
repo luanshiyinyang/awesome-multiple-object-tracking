@@ -65,6 +65,8 @@ Simple Cues Lead to a Strong Multi-Object Tracker [[code]()] [[paper](https://ar
  
 **OC-SORT**: Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking [[code](https://github.com/noahcao/OC_SORT)] [[paper](https://arxiv.org/pdf/2203.14360.pdf)]
 
+**GTR**: Global Tracking Transformers [[code](https://github.com/xingyizhou/GTR)] [[paper](https://arxiv.org/pdf/2203.13250.pdf)] 	**CVPR 2022**
+
 **StrongSORT**: StrongSORT: Make DeepSORT Great Again [[code](https://github.com/dyhBUPT/StrongSORT)]  [[paper](https://arxiv.org/pdf/2202.13514.pdf)]
 
 **MAA**: Modelling Ambiguous Assignments for Multi-Person Tracking in Crowds [[code]()] [[paper](https://openaccess.thecvf.com/content/WACV2022W/HADCV/papers/Stadler_Modelling_Ambiguous_Assignments_for_Multi-Person_Tracking_in_Crowds_WACVW_2022_paper.pdf)]
@@ -252,6 +254,7 @@ JTA Dataset [[url]](https://github.com/fabbrimatteo/JTA-Dataset)<br>
 Path Track [[url]](https://www.trace.ethz.ch/publications/2017/pathtrack/index.html)<br>
 TAO [[url]](https://github.com/TAO-Dataset/tao)<br>
 GMOT40 [[url]](https://arxiv.org/abs/2011.11858)<br>
+TAO-OW [[url](https://openworldtracking.github.io/)]<br>
 
 
 <a id="markdown-driving-scenarios" name="driving-scenarios"></a>
