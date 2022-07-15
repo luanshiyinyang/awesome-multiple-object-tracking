@@ -49,9 +49,8 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 
 <a id="markdown-2022" name="2022"></a>
 ### **2022**
-**P3AFormer**: Tracking Objects as Pixel-wise Distributions [[code](https://sjtuytc.github.io/zelin_pages/p3aformer.html)] [[paper](https://arxiv.org/pdf/2207.05518.pdf)] **ECCV2022 oral**
 
-Simple Cues Lead to a Strong Multi-Object Tracker [[code]()] [[paper](https://arxiv.org/pdf/2206.04656.pdf)]
+**P3AFormer**: Tracking Objects as Pixel-wise Distributions [[code](https://sjtuytc.github.io/zelin_pages/p3aformer.html)] [[paper](https://arxiv.org/pdf/2207.05518.pdf)] **ECCV2022 oral**
 
 **BoT-SORT**: BoT-SORT: Robust Associations Multi-Pedestrian Tracking [[code](https://github.com/NirAharon/BOT-SORT)] [[paper](https://arxiv.org/pdf/2206.14651.pdf)]
 
