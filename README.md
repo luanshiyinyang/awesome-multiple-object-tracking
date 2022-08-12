@@ -50,7 +50,7 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-2022" name="2022"></a>
 ### **2022**
 
-**MTracker**: Robust Multi-Object Tracking by Marginal Inference [[code]()] [[paper](https://arxiv.org/pdf/2208.03727.pdf)]
+**MTracker**: Robust Multi-Object Tracking by Marginal Inference [[code]()] [[paper](https://arxiv.org/pdf/2208.03727.pdf)] **ECCV 2022**
 
 **Unicorn**: Towards Grand Unification of Object Tracking [[code](https://github.com/MasterBin-IIAU/Unicorn)] [[paper](https://arxiv.org/pdf/2207.07078.pdf)] **ECCV2022 Oral**
 
