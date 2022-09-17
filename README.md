@@ -62,6 +62,8 @@ Simple Cues Lead to a Strong Multi-Object Tracker [[code]()] [[paper](https://ar
 
 **SGT**: Detection Recovery in Online Multi-Object Tracking with Sparse Graph Tracker [[code](https://github.com/HYUNJS/SGT)] [[paper](https://arxiv.org/pdf/2205.00968.pdf)]
 
+**LPT**: Learning of Global Objective for Network Flow in Multi-Object Tracking [[code](https://github.com/derkbreeze/LPT)] [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Learning_of_Global_Objective_for_Network_Flow_in_Multi-Object_Tracking_CVPR_2022_paper.pdf)] 	**CVPR 2022**
+
 **MeMOT**: MeMOT: Multi-Object Tracking with Memory [[code]()] [[paper](https://arxiv.org/pdf/2203.16761.pdf)] **CVPR2022 oral**
 
 **UTT**: Unified Transformer Tracker for Object Tracking [[code](https://github.com/Flowerfan/Trackron)] [[paper](https://arxiv.org/pdf/2203.15175.pdf)] **CVPR2022**
