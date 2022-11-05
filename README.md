@@ -273,6 +273,9 @@ BDD100K [[url]](http://bdd-data.berkeley.edu/)<br>
 Waymo [[url]](https://waymo.com/open/download/#)<br>
 
 
+<a id="markdown-sport-scenarios" name="sport-scenarios"></a>
+### Sport Scenarios
+SoccerNet Tracking [[url]](https://github.com/SoccerNet/sn-tracking)
 
 
 <a id="markdown-metrics" name="metrics"></a>
