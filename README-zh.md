@@ -5,6 +5,8 @@
 <a id="markdown-目录" name="目录"></a>
 ## 目录
 <!-- TOC -->
+- [多目标跟踪: ](#多目标跟踪-)
+  - [目录](#目录)
   - [综述论文](#综述论文)
   - [算法论文](#算法论文)
     - [**2023**](#2023)
@@ -36,6 +38,7 @@
     - [Omni-MOT](#omni-mot)
     - [BDD100K](#bdd100k)
     - [Waymo](#waymo)
+    - [SoccerNet Tracking](#soccernet-tracking)
   - [评估指标](#评估指标)
   - [基准结果](#基准结果)
     - [MOT16](#mot16)
@@ -68,8 +71,7 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-2023" name="2023"></a>
 ### **2023**
 
-**C-BIoU**: Hard to Track Objects with Irregular Motions and Similar Appearances? Make It Easier by Buffering the Matching Space (2nd-place solutions in the CVPR’22 SoccerNet MOT and ECCV’22
-MOTComplex DanceTrack challenges)[[paper](https://arxiv.org/pdf/2211.14317.pdf)] **WACV 2023**
+**C-BIoU**: Hard to Track Objects with Irregular Motions and Similar Appearances? Make It Easier by Buffering the Matching Space [[paper](https://arxiv.org/pdf/2211.14317.pdf)] **WACV 2023**
 
 <a id="markdown-2022" name="2022"></a>
 ### **2022**
@@ -596,6 +598,25 @@ BDD100K数据集不仅分多类别标注，还分晴天、多云等六种天气�
 
 
 ---
+
+
+<a id="markdown-soccernet-tracking" name=SoccerNet-Tracking"></a>
+
+### SoccerNet Tracking
+
+![SoccerNet Tracking](/assets/GraphicalAbstract-tracking.png)
+
+[地址url](https://github.com/SoccerNet/sn-tracking)
+
+跟踪数据集由来自主摄像头的 12 场完整足球比赛组成，包括：
+
+200 个 30 秒的片段，带有跟踪数据。
+一个完整的中场休息时间，并附有跟踪数据。
+12场比赛的完整视频。
+请注意，此数据的一个子集用于第一个挑战。特别是，这占训练集的 57 个 30 秒片段，测试集的 49 个片段，我们第一次公开挑战的 58 个片段，以及我们未来挑战的 37 个片段，包括后者的整个半场视频。
+
+
+
 <a id="markdown-评估指标" name="评估指标"></a>
 ## 评估指标
 

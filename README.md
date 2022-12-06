@@ -6,6 +6,8 @@
 <a id="markdown-contents" name="contents"></a>
 ## Contents
 <!-- TOC -->
+- [Awesome Multiple object Tracking: ](#awesome-multiple-object-tracking-)
+  - [Contents](#contents)
   - [Review papers](#review-papers)
   - [Algorithm papers](#algorithm-papers)
     - [**2023**](#2023)
@@ -19,6 +21,7 @@
   - [Datasets](#datasets)
     - [Surveillance Scenarios](#surveillance-scenarios)
     - [Driving Scenarios](#driving-scenarios)
+    - [Sport Scenarios](#sport-scenarios)
   - [Metrics](#metrics)
   - [Benchmark Results](#benchmark-results)
     - [MOT16](#mot16)
@@ -51,8 +54,7 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-2023" name="2023"></a>
 ### **2023**
 
-**C-BIoU**: Hard to Track Objects with Irregular Motions and Similar Appearances? Make It Easier by Buffering the Matching Space (2nd-place solutions in the CVPR’22 SoccerNet MOT and ECCV’22
-MOTComplex DanceTrack challenges)[[paper](https://arxiv.org/pdf/2211.14317.pdf)] **WACV 2023**
+**C-BIoU**: Hard to Track Objects with Irregular Motions and Similar Appearances? Make It Easier by Buffering the Matching Space [[paper](https://arxiv.org/pdf/2211.14317.pdf)] **WACV 2023**
 
 <a id="markdown-2022" name="2022"></a>
 ### **2022**
@@ -280,7 +282,9 @@ Omni-MOT [[url]](https://pan.baidu.com/s/1ma0rZIW6vfXeq5tdEk6K2w)<br>
 BDD100K [[url]](http://bdd-data.berkeley.edu/)<br>
 Waymo [[url]](https://waymo.com/open/download/#)<br>
 
-
+<a id="markdown-sport-scenarios" name="sport-scenarios"></a>
+### Sport Scenarios
+SoccerNet Tracking [[url]](https://github.com/SoccerNet/sn-tracking)
 
 
 <a id="markdown-metrics" name="metrics"></a>
