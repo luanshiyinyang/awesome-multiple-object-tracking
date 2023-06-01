@@ -71,6 +71,8 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-2023" name="2023"></a>
 ### **2023**
 
+**MotionTrack**: Learning Robust Short-term and Long-term Motions for Multi-Object Tracking [[paper](https://arxiv.org/pdf/2303.10404.pdf)] **CVPR2023**
+
 **C-BIoU**: Hard to Track Objects with Irregular Motions and Similar Appearances? Make It Easier by Buffering the Matching Space [[paper](https://arxiv.org/pdf/2211.14317.pdf)] **WACV 2023**
 
 **GHOST**: Simple Cues Lead to a Strong Multi-Object Tracker [[code](https://github.com/dvl-tum/GHOST)] [[paper](https://arxiv.org/pdf/2206.04656.pdf)] **CVPR2023**
