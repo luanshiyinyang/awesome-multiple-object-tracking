@@ -82,7 +82,7 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 
 **LPT**: Learning of Global Objective for Network Flow in Multi-Object Tracking [[code](https://github.com/derkbreeze/LPT)] [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Learning_of_Global_Objective_for_Network_Flow_in_Multi-Object_Tracking_CVPR_2022_paper.pdf)] 	**CVPR 2022**
 
-**MeMOT**: MeMOT: Multi-Object Tracking with Memory [[code]()] [[paper](https://arxiv.org/pdf/2203.16761.pdf)] **CVPR2022 oral**
+**MeMOT**: MeMOT: Multi-Object Tracking with Memory [[paper](https://arxiv.org/pdf/2203.16761.pdf)] **CVPR2022 oral**
 
 **UTT**: Unified Transformer Tracker for Object Tracking [[code](https://github.com/Flowerfan/Trackron)] [[paper](https://arxiv.org/pdf/2203.15175.pdf)] **CVPR2022**
  
