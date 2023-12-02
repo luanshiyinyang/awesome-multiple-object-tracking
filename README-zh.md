@@ -116,6 +116,8 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 
 **ByteTrack:** ByteTrack: Multi-Object Tracking by Associating Every Detection Box [[code](https://github.com/ifzhang/ByteTrack)] [[paper](https://arxiv.org/pdf/2110.06864.pdf)]  **new SOTA**
 
+**PCAN** Prototypical Cross-Attention Networks for Multiple Object Tracking and Segmentation [[code](https://github.com/SysCV/pcan)] [[paper](https://papers.nips.cc/paper/2021/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)] **NeurIPS2021**
+
 **PermaTrack**: Learning to Track with Object Permanence [[code](https://github.com/TRI-ML/permatrack)] [[paper](https://arxiv.org/pdf/2103.14258.pdf)]  **ICCV2021**
 
 **TMOH**: Improving Multiple Pedestrian Tracking by Track Management and Occlusion Handling [code] [[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Stadler_Improving_Multiple_Pedestrian_Tracking_by_Track_Management_and_Occlusion_Handling_CVPR_2021_paper.pdf)]  **CVPR2021**
