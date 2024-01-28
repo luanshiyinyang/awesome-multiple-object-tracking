@@ -68,6 +68,11 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-算法论文" name="算法论文"></a>
 ## 算法论文
 
+<a id="markdown-2024" name="2024"></a>
+### **2024**
+
+**AM-SORT**: AM-SORT: Adaptable Motion Predictor with Historical Trajectory Embedding for Multi-Object Tracking [[paper](https://arxiv.org/abs/2401.13950)] 
+
 <a id="markdown-2023" name="2023"></a>
 ### **2023**
 
@@ -105,7 +110,7 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 
 **GTR**: Global Tracking Transformers [[code](https://github.com/xingyizhou/GTR)] [[paper](https://arxiv.org/pdf/2203.13250.pdf)] 	**CVPR 2022**
 
-**StrongSORT**: StrongSORT: Make DeepSORT Great Again [[code](https://github.com/dyhBUPT/StrongSORT)]  [[paper](https://arxiv.org/pdf/2202.13514.pdf)]
+**StrongSORT**: StrongSORT: Make DeepSORT Great Again [[code](https://github.com/dyhBUPT/StrongSORT)]  [[paper](https://arxiv.org/pdf/2202.13514.pdf)] **TMM 2023**
 
 **MAA**: Modelling Ambiguous Assignments for Multi-Person Tracking in Crowds [code] [[paper](https://openaccess.thecvf.com/content/WACV2022W/HADCV/papers/Stadler_Modelling_Ambiguous_Assignments_for_Multi-Person_Tracking_in_Crowds_WACVW_2022_paper.pdf)]
 
@@ -114,7 +119,7 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-2021" name="2021"></a>
 ### **2021**
 
-**ByteTrack:** ByteTrack: Multi-Object Tracking by Associating Every Detection Box [[code](https://github.com/ifzhang/ByteTrack)] [[paper](https://arxiv.org/pdf/2110.06864.pdf)]  **new SOTA**
+**ByteTrack:** ByteTrack: Multi-Object Tracking by Associating Every Detection Box [[code](https://github.com/ifzhang/ByteTrack)] [[paper](https://arxiv.org/pdf/2110.06864.pdf)]  **ECCV 2022**
 
 **PCAN** Prototypical Cross-Attention Networks for Multiple Object Tracking and Segmentation [[code](https://github.com/SysCV/pcan)] [[paper](https://papers.nips.cc/paper/2021/file/093f65e080a295f8076b1c5722a46aa2-Paper.pdf)] **NeurIPS2021**
 
@@ -132,7 +137,7 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 
 **RelationTrack**: RelationTrack: Relation-aware Multiple Object Tracking with Decoupled Representation [[code]] [[paper](https://arxiv.org/pdf/2105.04322.pdf)]
 
-**MOTR**: MOTR: End-to-End Multiple-Object Tracking with TRansformer [[code](https://github.com/megvii-model/MOTR)]  [[paper](https://arxiv.org/pdf/2105.03247.pdf)]
+**MOTR**: MOTR: End-to-End Multiple-Object Tracking with TRansformer [[code](https://github.com/megvii-model/MOTR)]  [[paper](https://arxiv.org/pdf/2105.03247.pdf)]  **ECCV 2022**
 
 **OMC**: One More Check: Making "Fake Background" Be Tracked Again [[code](https://github.com/JudasDie/SOTS)] [[paper](https://arxiv.org/pdf/2104.09441.pdf)] **AAAI2022**
 
