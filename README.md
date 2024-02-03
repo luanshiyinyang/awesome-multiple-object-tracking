@@ -10,6 +10,7 @@
   - [Contents](#contents)
   - [Review papers](#review-papers)
   - [Algorithm papers](#algorithm-papers)
+    - [**2024**](#2024)
     - [**2023**](#2023)
     - [**2022**](#2022)
     - [**2021**](#2021)
@@ -51,12 +52,19 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-algorithm-papers" name="algorithm-papers"></a>
 ## Algorithm papers
 
+<a id="markdown-2024" name="2024"></a>
+### **2024**
+
+**Hybrid-SORT**: Hybrid-SORT: Weak Cues Matter for Online Multi-Object Tracking [[paper](https://browse.arxiv.org/abs/2308.00783)] [[code](https://github.com/ymzis69/HybridSORT)] **AAAI 2024**
+
+**UCMCTrack**: UCMCTrack: Multi-Object Tracking with Uniform Camera Motion Compensation [[paper](https://browse.arxiv.org/abs/2312.08952)] **AAAI 2024**
+
 <a id="markdown-2023" name="2023"></a>
 ### **2023**
 
 **ColTrack**: Collaborative Tracking Learning for Frame-Rate-Insensitive Multi-Object Tracking [[paper](https://arxiv.org/abs/2308.05911)] **ICCV2023**
 
-**MeMOTR**: MeMOTR: Long-Term Memory-Augmented Transformer for Multi-Object Tracking [[code](https://github.com/MCG-NJU/MeMOTR)][[paper](https://arxiv.org/abs/2307.15700)] **ICCV2023**
+**MeMOTR**: MeMOTR: Long-Term Memory-Augmented Transformer for Multi-Object Tracking [[code](https://github.com/MCG-NJU/MeMOTR)] [[paper](https://arxiv.org/abs/2307.15700)] **ICCV2023**
 
 **TrackFlow**: TrackFlow: Multi-Object Tracking with Normalizing Flows [[paper](https://arxiv.org/abs/2308.11513)] **ICCV2023**
 
