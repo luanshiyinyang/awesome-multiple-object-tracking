@@ -303,8 +303,9 @@ Waymo [[url]](https://waymo.com/open/download/#)<br>
 
 <a id="markdown-sport-scenarios" name="sport-scenarios"></a>
 ### Sport Scenarios
-SoccerNet Minimap Tracking [[url]]([https://github.com/SoccerNet/sn-tracking](https://github.com/SoccerNet/sn-gamestate))
-SoccerNet Tracking [[url]](https://github.com/SoccerNet/sn-tracking)
+
+SoccerNet Minimap Tracking [[url]](https://github.com/SoccerNet/sn-gamestate)<br>
+SoccerNet Tracking [[url]](https://github.com/SoccerNet/sn-tracking)<br>
 
 
 <a id="markdown-metrics" name="metrics"></a>
