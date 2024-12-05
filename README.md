@@ -55,6 +55,8 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-2024" name="2024"></a>
 ### **2024**
 
+**PASTA**: Is Multiple Object Tracking a Matter of Specialization? [[paper](https://arxiv.org/pdf/2411.00553)] [[code](https://github.com/aimagelab/PASTA)] **NeurIPS 2024**
+
 **Hybrid-SORT**: Hybrid-SORT: Weak Cues Matter for Online Multi-Object Tracking [[paper](https://browse.arxiv.org/abs/2308.00783)] [[code](https://github.com/ymzis69/HybridSORT)] **AAAI 2024**
 
 **UCMCTrack**: UCMCTrack: Multi-Object Tracking with Uniform Camera Motion Compensation [[paper](https://browse.arxiv.org/abs/2312.08952)] **AAAI 2024**
@@ -93,7 +95,7 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 **MeMOT**: MeMOT: Multi-Object Tracking with Memory [[paper](https://arxiv.org/pdf/2203.16761.pdf)] **CVPR2022 oral**
 
 **UTT**: Unified Transformer Tracker for Object Tracking [[code](https://github.com/Flowerfan/Trackron)] [[paper](https://arxiv.org/pdf/2203.15175.pdf)] **CVPR2022**
- 
+
 **OC-SORT**: Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking [[code](https://github.com/noahcao/OC_SORT)] [[paper](https://arxiv.org/pdf/2203.14360.pdf)]
 
 **GTR**: Global Tracking Transformers [[code](https://github.com/xingyizhou/GTR)] [[paper](https://arxiv.org/pdf/2203.13250.pdf)] 	**CVPR 2022**
@@ -379,4 +381,4 @@ SoccerNet Tracking [[url]](https://github.com/SoccerNet/sn-tracking)<br>
 <a id="markdown-course" name="course"></a>
 ## Course
 
-[link](https://www.youtube.com/watch?v=ay_QLAHcZLY&list=PLadnyz93xCLhSlm2tMYJSKaik39EZV_Uk) is a good course about multiple object tracking. The course is offered as a Massive Open Online Course (MOOC) on edX. 
+[link](https://www.youtube.com/watch?v=ay_QLAHcZLY&list=PLadnyz93xCLhSlm2tMYJSKaik39EZV_Uk) is a good course about multiple object tracking. The course is offered as a Massive Open Online Course (MOOC) on edX.
