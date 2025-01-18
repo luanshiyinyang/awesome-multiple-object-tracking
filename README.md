@@ -55,6 +55,10 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-2024" name="2024"></a>
 ### **2024**
 
+**MASA**: Matching Anything by Segmenting Anything [[paper](https://arxiv.org/abs/2406.04221)] [[code](https://github.com/siyuanliii/masa)]
+
+**GeneralTrack**: Towards Generalizable Multi-Object Tracking [[paper](https://arxiv.org/abs/2406.00429)] [[code](https://github.com/qinzheng2000/GeneralTrack)]
+
 **PASTA**: Is Multiple Object Tracking a Matter of Specialization? [[paper](https://arxiv.org/pdf/2411.00553)] [[code](https://aimagelab.github.io/PASTA/)] **NeurIPS 2024**
 
 **Hybrid-SORT**: Hybrid-SORT: Weak Cues Matter for Online Multi-Object Tracking [[paper](https://browse.arxiv.org/abs/2308.00783)] [[code](https://github.com/ymzis69/HybridSORT)] **AAAI 2024**
