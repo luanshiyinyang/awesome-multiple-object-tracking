@@ -52,6 +52,18 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-algorithm-papers" name="algorithm-papers"></a>
 ## Algorithm papers
 
+
+<a id="markdown-2025" name="2025"></a>
+### **2025**
+
+**MOTIP**: Multiple Object Tracking as ID Prediction [[paper](https://arxiv.org/abs/2403.16848)] [[code](https://github.com/MCG-NJU/MOTIP)] **CVPR 2025**
+
+**SambaMOTR**: Samba: Synchronized Set-of-Sequences Modeling for Multiple Object Tracking [[paper](https://arxiv.org/abs/2410.01806)] [[code](https://github.com/mattiasegu/sambamotr)] **ICLR 2025**
+
+**CO-MOT**: CO-MOT: Boosting End-to-end Transformer-based Multi-Object Tracking via Coopetition Label Assignment and Shadow Sets [[paper](https://iclr.cc/virtual/2025/poster/31235)] [[code](https://github.com/BingfengYan/CO-MOT)] **ICLR 2025**
+
+
+
 <a id="markdown-2024" name="2024"></a>
 ### **2024**
 
