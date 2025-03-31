@@ -68,8 +68,9 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 <a id="markdown-算法论文" name="算法论文"></a>
 ## 算法论文
 
-
 <a id="markdown-2025" name="2025"></a>
+
+### 2025
 
 **MOTIP**: Multiple Object Tracking as ID Prediction [[paper](https://arxiv.org/abs/2403.16848)] [[code](https://github.com/MCG-NJU/MOTIP)] **CVPR 2025**
 
@@ -83,6 +84,16 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 ### **2024**
 
 **AM-SORT**: AM-SORT: Adaptable Motion Predictor with Historical Trajectory Embedding for Multi-Object Tracking [[paper](https://arxiv.org/abs/2401.13950)] 
+
+**MASA**: Matching Anything by Segmenting Anything [[paper](https://arxiv.org/abs/2406.04221)] [[code](https://github.com/siyuanliii/masa)] **CVPR 2024**
+
+**GeneralTrack**: Towards Generalizable Multi-Object Tracking [[paper](https://arxiv.org/abs/2406.00429)] [[code](https://github.com/qinzheng2000/GeneralTrack)] **CVPR 2024**
+
+**PASTA**: Is Multiple Object Tracking a Matter of Specialization? [[paper](https://arxiv.org/pdf/2411.00553)] [[code](https://aimagelab.github.io/PASTA/)] **NeurIPS 2024**
+
+**Hybrid-SORT**: Hybrid-SORT: Weak Cues Matter for Online Multi-Object Tracking [[paper](https://browse.arxiv.org/abs/2308.00783)] [[code](https://github.com/ymzis69/HybridSORT)] **AAAI 2024**
+
+**UCMCTrack**: UCMCTrack: Multi-Object Tracking with Uniform Camera Motion Compensation [[paper](https://browse.arxiv.org/abs/2312.08952)] [[code](https://github.com/corfyi/UCMCTrack)] **AAAI 2024**
 
 <a id="markdown-2023" name="2023"></a>
 ### **2023**
@@ -98,6 +109,8 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 **C-BIoU**: Hard to Track Objects with Irregular Motions and Similar Appearances? Make It Easier by Buffering the Matching Space [[paper](https://arxiv.org/pdf/2211.14317.pdf)] **WACV 2023**
 
 **GHOST**: Simple Cues Lead to a Strong Multi-Object Tracker [[code](https://github.com/dvl-tum/GHOST)] [[paper](https://arxiv.org/pdf/2206.04656.pdf)] **CVPR2023**
+
+**Deep OC-SORT**: Multi-Pedestrian Tracking by Adaptive Re-Identification [[code](https://github.com/GerardMaggiolino/Deep-OC-SORT/)] [[paper](https://arxiv.org/pdf/2302.11813)]**ICIP2023**
 
 <a id="markdown-2022" name="2022"></a>
 ### **2022**
