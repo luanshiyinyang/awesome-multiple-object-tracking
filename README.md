@@ -75,9 +75,10 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 
 **Hybrid-SORT**: Hybrid-SORT: Weak Cues Matter for Online Multi-Object Tracking [[paper](https://browse.arxiv.org/abs/2308.00783)] [[code](https://github.com/ymzis69/HybridSORT)] **AAAI 2024**
 
-**UCMCTrack**: UCMCTrack: Multi-Object Tracking with Uniform Camera Motion Compensation [[paper](https://browse.arxiv.org/abs/2312.08952)] **AAAI 2024**
+**UCMCTrack**: UCMCTrack: Multi-Object Tracking with Uniform Camera Motion Compensation [[paper](https://browse.arxiv.org/abs/2312.08952)] [[code](https://github.com/corfyi/UCMCTrack)] **AAAI 2024**
 
 <a id="markdown-2023" name="2023"></a>
+
 ### **2023**
 
 **ColTrack**: Collaborative Tracking Learning for Frame-Rate-Insensitive Multi-Object Tracking [[paper](https://arxiv.org/abs/2308.05911)] **ICCV2023**
@@ -92,7 +93,10 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 
 **GHOST**: Simple Cues Lead to a Strong Multi-Object Tracker [[code](https://github.com/dvl-tum/GHOST)] [[paper](https://arxiv.org/pdf/2206.04656.pdf)] **CVPR2023**
 
+**Deep OC-SORT**: Multi-Pedestrian Tracking by Adaptive Re-Identification [[code](https://github.com/GerardMaggiolino/Deep-OC-SORT/)] [[paper](https://arxiv.org/pdf/2302.11813)] **ICIP2023**
+
 <a id="markdown-2022" name="2022"></a>
+
 ### **2022**
 
 **MTracker**: Robust Multi-Object Tracking by Marginal Inference [[code]()] [[paper](https://arxiv.org/pdf/2208.03727.pdf)] **ECCV 2022**
