@@ -93,7 +93,7 @@ Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://w
 
 **GHOST**: Simple Cues Lead to a Strong Multi-Object Tracker [[code](https://github.com/dvl-tum/GHOST)] [[paper](https://arxiv.org/pdf/2206.04656.pdf)] **CVPR2023**
 
-**Deep OC-SORT**: Multi-Pedestrian Tracking by Adaptive Re-Identification [[code](https://github.com/GerardMaggiolino/Deep-OC-SORT/)] [[paper](https://arxiv.org/pdf/2302.11813)]**ICIP2023**
+**Deep OC-SORT**: Multi-Pedestrian Tracking by Adaptive Re-Identification [[code](https://github.com/GerardMaggiolino/Deep-OC-SORT/)] [[paper](https://arxiv.org/pdf/2302.11813)] **ICIP2023**
 
 <a id="markdown-2022" name="2022"></a>
 
