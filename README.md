@@ -394,6 +394,10 @@ SoccerNet Tracking [[url]](https://github.com/SoccerNet/sn-tracking)<br>
 <a id="markdown-toolbox" name="toolbox"></a>
 ## Toolbox
 
+**Tracklab** TrackLab is an easy-to-use modular framework for Multi-Object pose/bbox Tracking that supports many methods, datasets and evaluation metrics.
+
+[Github](https://github.com/TrackingLaboratory/tracklab)
+
 **mmtracking**: OpenMMLab Video Perception Toolbox. It supports Single Object Tracking (SOT), Multiple Object Tracking (MOT), Video Object Detection (VID) with a unified framework.
 
 [Github](https://github.com/open-mmlab/mmtracking)  [DOC](https://mmtracking.readthedocs.io/en/latest/)
