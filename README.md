@@ -49,7 +49,7 @@ MOTChallenge: A Benchmark for Single-camera Multiple Target Tracking [[paper](ht
 
 Multiple Object Tracking in Deep Learning Approaches:A Survey [[paper](https://www.mdpi.com/2079-9292/10/19/2406/htm)]
 
-Object Tracking: A Comprehensive Survey From Classical Approaches to Large Vision-Language and Foundation Models [[paper](https://github.com/rahulrj/Awesome-Object-Tracking)]
+Object Tracking: A Comprehensive Survey From Classical Approaches to Large Vision-Language and Foundation Models [[paper](https://www.preprints.org/manuscript/202509.2051/v1)]
 
 <a id="markdown-algorithm-papers" name="algorithm-papers"></a>
 ## Algorithm papers
