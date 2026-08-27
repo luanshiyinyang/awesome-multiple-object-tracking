@@ -404,6 +404,10 @@ SoccerNet Tracking [[url]](https://github.com/SoccerNet/sn-tracking)<br>
 
 [Github](https://github.com/open-mmlab/mmtracking)  [DOC](https://mmtracking.readthedocs.io/en/latest/)
 
+**trackers**: A unified library for multi-object tracking with clean-room implementations of SORT, ByteTrack, OC-SORT, BoT-SORT, C-BIoU and McByte. Works with any detector via supervision.Detections, and ships benchmarks on MOT17, SportsMOT, SoccerNet and DanceTrack.
+
+[Github](https://github.com/roboflow/trackers)  [DOC](https://trackers.roboflow.com/latest/)
+
 <a id="markdown-course" name="course"></a>
 ## Course
 
